@@ -17,7 +17,9 @@ import {
   mui,
   totalFitness,
   WeatherApp,
-  ApniNews
+  ApniNews,
+  live,
+  github
 } from "../assets";
 
 export const navLinks = [
@@ -136,6 +138,7 @@ const projects = [
       },
     ],
     image: totalFitness,
+    onlineRepo: live,
     source_code_link: "https://rohit-fitnesss.netlify.app/",
   },
   {
@@ -157,6 +160,7 @@ const projects = [
       },
     ],
     image: WeatherApp,
+    onlineRepo: live,
     source_code_link: "https://live-weather-check.netlify.app/",
   },
   {
@@ -178,6 +182,7 @@ const projects = [
       },
     ],
     image: ApniNews,
+    onlineRepo: github,
     source_code_link: "https://github.com/Rohit-Yadavv/ApniNews",
   },
   
