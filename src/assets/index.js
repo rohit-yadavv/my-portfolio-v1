@@ -24,6 +24,9 @@ import python from "./tech/python.png";
 import WeatherApp from "./WeatherApp.png";
 import totalFitness from "./totalFitness.png";
 import ApniNews from "./ApniNews.png";
+import ApnaBaaja from "./ApnaBaaja.png";
+import ToDoList from "./ToDoList.png";
+import TicTacToe from "./TicTacToe.png";
 
 
 import Facebook from  "./links/Facebook.png";
@@ -56,6 +59,10 @@ export {
   live,
   totalFitness,
   WeatherApp,
+  ApnaBaaja,
+  ToDoList,
+  TicTacToe,
+  
   ApniNews,
   Facebook,
   GitHub,

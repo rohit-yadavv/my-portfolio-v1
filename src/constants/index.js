@@ -19,13 +19,20 @@ import {
   WeatherApp,
   ApniNews,
   live,
-  github
+  github,
+  ToDoList,
+  TicTacToe,
+  ApnaBaaja
 } from "../assets";
 
 export const navLinks = [
   {
     id: "about",
     title: "About",
+  },
+  {
+    id: "skills",
+    title: "Skills",
   },
   {
     id: "projects",
@@ -116,7 +123,7 @@ const testimonials = [
     company: "...",
     image: "...",
   },
- 
+
 ];
 const projects = [
   {
@@ -186,6 +193,61 @@ const projects = [
     source_code_link: "https://github.com/Rohit-Yadavv/ApniNews",
   },
   
+  {
+    name: "To DO List",
+    description:
+      "Application that provides a efficient way to search for any type of News with categories Entertainment, Sports, Technology etc.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "scss",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: ToDoList,
+    onlineRepo: live,
+    source_code_link: "https://tonotes.netlify.app",
+  },
+  {
+    name: "Tic Tac Toe",
+    description:
+      "Application that provides a efficient way to search for any type of News with categories Entertainment, Sports, Technology etc.",
+    tags: [
+      {
+        name: "javascript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: TicTacToe,
+    onlineRepo: live,
+    source_code_link: "https://apna-tic-tac-toe.netlify.app",
+  },
+  {
+    name: "Music Player",
+    description:
+      "Application that provides a efficient way to search for any type of News with categories Entertainment, Sports, Technology etc.",
+    tags: [
+      {
+        name: "javascript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "scss",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: ApnaBaaja,
+    onlineRepo: github,
+    source_code_link: "https://github.com/Rohit-Yadavv/Music-Player",
+  },
+
 ];
 
 export { services, technologies, testimonials, projects };
