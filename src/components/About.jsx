@@ -48,10 +48,9 @@ const About = () => {
    
       >
         I'm a skilled Web developer with experience in 
-        JavaScript, and expertise in frameworks like React, Node.js.
-        I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        JavaScript, and expertise in libraries like React, 
+        I'm a quick learner and create efficient, scalable, and user-friendly web Apps. 
+        {/* Let's work together to bring your ideas to life! */}
       </div>
 
       <div className='mt-20 flex flex-wrap gap-10' >
