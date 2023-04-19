@@ -31,9 +31,7 @@ const Tech = () => {
                     <img className='sm:w-20 w-20 ' style={{ margin: '10px', padding: '10px' }} src={technology.icon} />
                   </div>
                 </div>
-
               ))}
-
             </div>
           </div>
         </motion.div>

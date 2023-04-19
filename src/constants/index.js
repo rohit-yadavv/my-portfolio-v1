@@ -196,7 +196,7 @@ const projects = [
   {
     name: "To DO List",
     description:
-      "Application that provides a efficient way to search for any type of News with categories Entertainment, Sports, Technology etc.",
+      "A simple and user-friendly todo website that allows users to create, and delete their tasks in a simple and intuitive way .",
     tags: [
       {
         name: "react",
@@ -214,7 +214,7 @@ const projects = [
   {
     name: "Tic Tac Toe",
     description:
-      "Application that provides a efficient way to search for any type of News with categories Entertainment, Sports, Technology etc.",
+      "Offers a fun and interactive way to play the classic game of tic-tac-toe with intuitive and user-friendly interface ",
     tags: [
       {
         name: "javascript",
@@ -232,7 +232,7 @@ const projects = [
   {
     name: "Music Player",
     description:
-      "Application that provides a efficient way to search for any type of News with categories Entertainment, Sports, Technology etc.",
+      "All new Music Player with modern ui that offers easy-to-use controls for seamless music playback ",
     tags: [
       {
         name: "javascript",
