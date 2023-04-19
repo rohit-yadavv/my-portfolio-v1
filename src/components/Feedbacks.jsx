@@ -4,7 +4,7 @@ import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 import { testimonials } from "../constants";
-
+import {HarshitImg} from "../assets";
 const FeedbackCard = ({
   index,
   testimonial,
@@ -30,11 +30,11 @@ const FeedbackCard = ({
           </p>
           <p className='mt-1 text-secondary text-[12px]'>
             {designation} of {company}
-          </p>
+          </p> 
         </div>
 
         <img
-          src={image}
+          src={HarshitImg}
           alt={`feedback_by-${name}`}
           className='w-10 h-10 rounded-full object-cover'
         />

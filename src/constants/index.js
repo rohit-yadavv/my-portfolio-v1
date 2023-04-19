@@ -22,7 +22,8 @@ import {
   github,
   ToDoList,
   TicTacToe,
-  ApnaBaaja
+  ApnaBaaja,
+  HarshitImg,
 } from "../assets";
 
 export const navLinks = [
@@ -117,11 +118,11 @@ const technologies = [
 const testimonials = [
   {
     testimonial:
-      "...",
-    name: "...",
-    designation: "...",
-    company: "...",
-    image: "...",
+      "Rohit has expertise in React that allowed him to create beautiful, responsive, and user-friendly interfaces that exceedes our expectations.",
+    name: "Harshit",
+    designation: "Student",
+    company: "CUH",
+    image: {live}
   },
 
 ];
@@ -193,60 +194,60 @@ const projects = [
     source_code_link: "https://github.com/Rohit-Yadavv/ApniNews",
   },
   
-  {
-    name: "To DO List",
-    description:
-      "A simple and user-friendly todo website that allows users to create, and delete their tasks in a simple and intuitive way .",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: ToDoList,
-    onlineRepo: live,
-    source_code_link: "https://tonotes.netlify.app",
-  },
-  {
-    name: "Tic Tac Toe",
-    description:
-      "Offers a fun and interactive way to play the classic game of tic-tac-toe with intuitive and user-friendly interface ",
-    tags: [
-      {
-        name: "javascript",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: TicTacToe,
-    onlineRepo: live,
-    source_code_link: "https://apna-tic-tac-toe.netlify.app",
-  },
-  {
-    name: "Music Player",
-    description:
-      "All new Music Player with modern ui that offers easy-to-use controls for seamless music playback ",
-    tags: [
-      {
-        name: "javascript",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: ApnaBaaja,
-    onlineRepo: github,
-    source_code_link: "https://github.com/Rohit-Yadavv/Music-Player",
-  },
+  // {
+  //   name: "To DO List",
+  //   description:
+  //     "A simple and user-friendly todo website that allows users to create, and delete their tasks in a simple and intuitive way .",
+  //   tags: [
+  //     {
+  //       name: "react",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "scss",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: ToDoList,
+  //   onlineRepo: live,
+  //   source_code_link: "https://tonotes.netlify.app",
+  // },
+  // {
+  //   name: "Tic Tac Toe",
+  //   description:
+  //     "Offers a fun and interactive way to play the classic game of tic-tac-toe with intuitive and user-friendly interface ",
+  //   tags: [
+  //     {
+  //       name: "javascript",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "css",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: TicTacToe,
+  //   onlineRepo: live,
+  //   source_code_link: "https://apna-tic-tac-toe.netlify.app",
+  // },
+  // {
+  //   name: "Music Player",
+  //   description:
+  //     "All new Music Player with modern ui that offers easy-to-use controls for seamless music playback ",
+  //   tags: [
+  //     {
+  //       name: "javascript",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "scss",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: ApnaBaaja,
+  //   onlineRepo: github,
+  //   source_code_link: "https://github.com/Rohit-Yadavv/Music-Player",
+  // },
 
 ];
 

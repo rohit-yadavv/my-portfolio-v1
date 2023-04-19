@@ -215,5 +215,5 @@
   background: radial-gradient(at center, #f7f7ef, #151030);
 }
 .outer_circle:hover{
-  transform: scale(1.06);
+  transform: scale(1.062);
 }

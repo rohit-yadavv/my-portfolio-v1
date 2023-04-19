@@ -35,6 +35,8 @@ import Instagram from  "./links/Instagram.png";
 import LinkedIn from  "./links/LinkedIn.png";
 import Email from  "./links/Email.png";
 
+import HarshitImg from  "./HarshitImg.png";
+
 export {
   logo,
   backend,
@@ -62,7 +64,7 @@ export {
   ApnaBaaja,
   ToDoList,
   TicTacToe,
-  
+  HarshitImg,
   ApniNews,
   Facebook,
   GitHub,
