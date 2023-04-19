@@ -118,7 +118,7 @@ const technologies = [
 const testimonials = [
   {
     testimonial:
-      "Rohit has expertise in React that allowed him to create beautiful, responsive, and user-friendly interfaces that exceedes our expectations.",
+      "Rohit has expertise in React that allowed him to create beautiful, responsive, and user-friendly interfaces that exceedes my expectations.",
     name: "Harshit",
     designation: "Student",
     company: "CUH",
