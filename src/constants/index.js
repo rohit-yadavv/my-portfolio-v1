@@ -27,7 +27,6 @@ import {
   sass,
   styledComponent,
   sql,
-  firebase,
   redux,
 } from "../assets";
 
@@ -129,10 +128,6 @@ const technologies = [
   {
     name: "sql",
     icon: sql,
-  },
-  {
-    name: "firebase",
-    icon: firebase,
   },
   {
     name: "redux",

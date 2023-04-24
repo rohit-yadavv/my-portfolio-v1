@@ -23,7 +23,6 @@ import python from "./tech/python.png";
 import sass from "./tech/sass.png";
 import styledComponent from "./tech/styledComponent.png";
 import sql from "./tech/sql.png";
-import firebase from "./tech/firebase.png";
 import redux from "./tech/redux.png";
 
 import WeatherApp from "./WeatherApp.png";
@@ -64,7 +63,6 @@ export {
   sass,
   styledComponent,
   sql,
-  firebase,
   redux,
   mui,
   live,
