@@ -20,11 +20,11 @@ import reactjs from "./tech/reactjs.png";
 import bootstrap from "./tech/bootstrap.png";
 import tailwind from "./tech/tailwind.png";
 import python from "./tech/python.png";
-import sass from "./sass.png";
-import styledComponent from "./styledComponent.png";
-import sql from "./sql.png";
-import firebase from "./firebase.png";
-import redux from "./redux.png";
+import sass from "./tech/sass.png";
+import styledComponent from "./tech/styledComponent.png";
+import sql from "./tech/sql.png";
+import firebase from "./tech/firebase.png";
+import redux from "./tech/redux.png";
 
 import WeatherApp from "./WeatherApp.png";
 import totalFitness from "./totalFitness.png";
