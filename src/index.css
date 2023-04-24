@@ -206,14 +206,17 @@
 
 
 .outer_circle {
-  /* position: relative; */
   margin: 10px;
-  width: 100px;
-  height: 100px;
+  width: 90px;
+  height: 90px;
   border-radius: 50%;
   background: #151030;
   background: radial-gradient(at center, #f7f7ef, #151030);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.outer_circle:hover{
+
+.outer_circle:hover {
   transform: scale(1.062);
 }

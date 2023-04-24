@@ -27,9 +27,7 @@ const Tech = () => {
             < div className="technologies w-full flex flex-row justify-center flex-wrap">
               {technologies.map((technology) => (
                 <div className="outer_circle">
-                  <div>
-                    <img className='sm:w-20 w-20 ' style={{ margin: '10px', padding: '10px' }} src={technology.icon} />
-                  </div>
+                    <img style={{ margin: '10px', padding: '10px', width:"70px", height:'70px' }} src={technology.icon} />
                 </div>
               ))}
             </div>
