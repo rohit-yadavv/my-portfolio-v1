@@ -207,8 +207,8 @@
 
 .outer_circle {
   margin: 10px;
-  width: 90px;
-  height: 90px;
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
   background: #151030;
   background: radial-gradient(at center, #f7f7ef, #151030);

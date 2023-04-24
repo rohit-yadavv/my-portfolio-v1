@@ -106,7 +106,7 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "git",
+    name: "Git",
     icon: git,
   },
   {
@@ -122,15 +122,15 @@ const technologies = [
     icon: sass,
   },
   {
-    name: "styledComponent",
+    name: "Styled Component",
     icon: styledComponent,
   },
   {
-    name: "sql",
+    name: "SQL",
     icon: sql,
   },
   {
-    name: "redux",
+    name: "Redux",
     icon: redux,
   },
 ];
