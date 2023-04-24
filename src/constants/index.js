@@ -24,6 +24,11 @@ import {
   TicTacToe,
   ApnaBaaja,
   HarshitImg,
+  sass,
+  styledComponent,
+  sql,
+  firebase,
+  redux,
 } from "../assets";
 
 export const navLinks = [
@@ -113,6 +118,26 @@ const technologies = [
     name: "Python",
     icon: python,
   },
+  {
+    name: "sass",
+    icon: sass,
+  },
+  {
+    name: "styledComponent",
+    icon: styledComponent,
+  },
+  {
+    name: "sql",
+    icon: sql,
+  },
+  {
+    name: "firebase",
+    icon: firebase,
+  },
+  {
+    name: "redux",
+    icon: redux,
+  },
 ];
 
 const testimonials = [
@@ -122,9 +147,8 @@ const testimonials = [
     name: "Harshit",
     designation: "Student",
     company: "CUH",
-    image: {live}
+    image: { live },
   },
-
 ];
 const projects = [
   {
@@ -193,7 +217,7 @@ const projects = [
     onlineRepo: github,
     source_code_link: "https://github.com/Rohit-Yadavv/ApniNews",
   },
-  
+
   // {
   //   name: "To DO List",
   //   description:
@@ -248,7 +272,6 @@ const projects = [
   //   onlineRepo: github,
   //   source_code_link: "https://github.com/Rohit-Yadavv/Music-Player",
   // },
-
 ];
 
 export { services, technologies, testimonials, projects };

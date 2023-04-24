@@ -20,6 +20,11 @@ import reactjs from "./tech/reactjs.png";
 import bootstrap from "./tech/bootstrap.png";
 import tailwind from "./tech/tailwind.png";
 import python from "./tech/python.png";
+import sass from "./sass.png";
+import styledComponent from "./styledComponent.png";
+import sql from "./sql.png";
+import firebase from "./firebase.png";
+import redux from "./redux.png";
 
 import WeatherApp from "./WeatherApp.png";
 import totalFitness from "./totalFitness.png";
@@ -28,14 +33,13 @@ import ApnaBaaja from "./ApnaBaaja.png";
 import ToDoList from "./ToDoList.png";
 import TicTacToe from "./TicTacToe.png";
 
+import Facebook from "./links/Facebook.png";
+import GitHub from "./links/GitHub.png";
+import Instagram from "./links/Instagram.png";
+import LinkedIn from "./links/LinkedIn.png";
+import Email from "./links/Email.png";
 
-import Facebook from  "./links/Facebook.png";
-import GitHub from  "./links/GitHub.png";
-import Instagram from  "./links/Instagram.png";
-import LinkedIn from  "./links/LinkedIn.png";
-import Email from  "./links/Email.png";
-
-import HarshitImg from  "./HarshitImg.png";
+import HarshitImg from "./HarshitImg.png";
 
 export {
   logo,
@@ -57,6 +61,11 @@ export {
   vscode,
   python,
   bootstrap,
+  sass,
+  styledComponent,
+  sql,
+  firebase,
+  redux,
   mui,
   live,
   totalFitness,
