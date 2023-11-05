@@ -397,7 +397,7 @@ const experiences = [
     company_name: "Google Developer Students Club",
     icon: gdsc,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "August 2023 - Present",
     points: [
       "Lead and coordinate open-source initiatives within the GDSC community.",
       "Manage and mentor a team of developers and contributors.",
@@ -409,7 +409,7 @@ const experiences = [
     company_name: "Hacktoberfest",
     icon: hacktoberfest,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "October 2023",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Among first 50,000 contributors during Hacktoberfest, tree planted in honor by digitalOcean.",
