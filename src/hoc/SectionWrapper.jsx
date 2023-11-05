@@ -8,12 +8,12 @@ const StarWrapper = (Component, idName) =>
     return (
       <motion.section
         variants={staggerContainer()}
-        initial='hidden'
-        whileInView='show'
+        initial="hidden"
+        whileInView="show"
         viewport={{ once: true, amount: 0.25 }}
-        className={`${styles.padding} max-w-7xl mx-auto relative z-0 sm:py-16 py-10`}
+        className={`${styles.padding} max-w-7xl mx-0 sm:mx-[2rem] relative z-0 sm:py-16 py-10`}
       >
-        <span className='hash-span' id={idName}>
+        <span className="hash-span" id={idName}>
           &nbsp;
         </span>
 

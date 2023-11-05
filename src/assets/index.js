@@ -9,6 +9,16 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 
 import css from "./tech/css.png";
+import cpp from "./tech/cpp.png";
+import docker from "./tech/docker.png";
+import firebase from "./tech/firebase.png";
+import graphql from "./tech/graphql.png";
+import nextjs from "./tech/nextjs.png";
+import postgresql from "./tech/postgresql.png";
+import postman from "./tech/postman.png";
+import prisma from "./tech/prisma.png";
+import typescript from "./tech/typescript.png";
+import vercel from "./tech/vercel.png";
 import vscode from "./tech/vscode.png";
 import mui from "./tech/mui.png";
 import git from "./tech/git.png";
@@ -31,6 +41,8 @@ import ApniNews from "./ApniNews.png";
 import ApnaBaaja from "./ApnaBaaja.png";
 import ToDoList from "./ToDoList.png";
 import TicTacToe from "./TicTacToe.png";
+import questify from "./questify.png";
+import ecoomerce from "./ecoomerce.png";
 
 import Facebook from "./links/Facebook.png";
 import GitHub from "./links/GitHub.png";
@@ -38,9 +50,16 @@ import Instagram from "./links/Instagram.png";
 import LinkedIn from "./links/LinkedIn.png";
 import Email from "./links/Email.png";
 
+import gdsc from "./gdsc-logo.png";
+import hacktoberfest from "./hacktoberfest.png";
+import learneaseu from "./learneaseu.png";
+
 import HarshitImg from "./HarshitImg.png";
 
 export {
+  questify, ecoomerce,
+  hacktoberfest, learneaseu,
+  gdsc,
   logo,
   backend,
   creator,
@@ -78,4 +97,14 @@ export {
   Instagram,
   LinkedIn,
   Email,
+  cpp,
+  docker,
+  firebase,
+  graphql,
+  nextjs,
+  postgresql,
+  postman,
+  prisma,
+  typescript,
+  vercel,
 };

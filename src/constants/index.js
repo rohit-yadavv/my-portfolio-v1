@@ -25,9 +25,24 @@ import {
   ApnaBaaja,
   HarshitImg,
   sass,
+  gdsc,
+  ecoomerce,
   styledComponent,
   sql,
   redux,
+  learneaseu,
+  hacktoberfest,
+  questify,
+  firebase,
+  graphql,
+  postgresql,
+  postman,
+  typescript,
+  docker,
+  cpp,
+  nextjs,
+  prisma,
+  vercel
 } from "../assets";
 
 export const navLinks = [
@@ -51,26 +66,62 @@ export const navLinks = [
 
 const services = [
   {
-    title: "JS Developer",
+    title: "MERN Developer",
     icon: web,
   },
   {
-    title: "React Developer",
+    title: "Nextjs Developer",
     icon: mobile,
   },
-  // {
-  //   title: "Backend Developer",
-  //   icon: backend,
-  // },
   {
-    title: "Frontend Developer",
+    title: "React-Native Developer",
     icon: backend,
   },
 ];
 
 const technologies = [
   {
-    name: "HTML 5",
+    name: "Nextjs",
+    icon: nextjs,
+  },
+  {
+    name: "Docker",
+    icon: docker,
+  },
+  {
+    name: "cpp",
+    icon: cpp,
+  },
+  {
+    name: "Firebase",
+    icon: firebase,
+  },
+  {
+    name: "GraphQl",
+    icon: graphql,
+  },
+  {
+    name: "postgresql",
+    icon: postgresql,
+  },
+  {
+    name: "postman",
+    icon: postman,
+  },
+  {
+    name: "prisma",
+    icon: prisma,
+  },
+  {
+    name: "TypeScript",
+    icon: typescript,
+  },
+  {
+    name: "vercel",
+    icon: vercel,
+  },
+  {
+    name: "html",
     icon: html,
   },
   {
@@ -133,6 +184,8 @@ const technologies = [
     name: "Redux",
     icon: redux,
   },
+
+
 ];
 
 const testimonials = [
@@ -146,6 +199,76 @@ const testimonials = [
   },
 ];
 const projects = [
+  {
+    name: "LearnEaseU",
+    description:
+      "Questify is a dynamic and user-friendly MERN Blogging1 application I developed to create and manage my blogs effectively.",
+    // • Features: Admin Dashboard, User Authentication, SEO Optimization, User Profiles, Liked Articles
+    // • Skill: MERN Stack, Javascript, Authentication, Cookies, JWT, Bcryptjs, react-helmet(SEO), MongoDB, DataBase"
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tsparticles",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: learneaseu,
+    onlineRepo: live,
+    source_code_link: "https://learneaseu.vercel.app/",
+  },
+  {
+    name: "Questify",
+    description:
+      "Questify is a dynamic and user-friendly MERN Blogging1 application I developed to create and manage my blogs effectively.",
+    // • Features: Admin Dashboard, User Authentication, SEO Optimization, User Profiles, Liked Articles
+    // • Skill: MERN Stack, Javascript, Authentication, Cookies, JWT, Bcryptjs, react-helmet(SEO), MongoDB, DataBase"
+    tags: [
+      {
+        name: "mern",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "seo",
+        color: "green-text-gradient",
+      },
+      {
+        name: "authentication",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: questify,
+    onlineRepo: live,
+    source_code_link: "https://www.questify.site/",
+  },
+  {
+    name: "Ecommerce App",
+    description:
+      "Ecommerce Website having clean interface, user-friendly navigation, secure transactions and a seamless online shopping experience.",
+    tags: [
+      {
+        name: "mern",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "styledcomponents",
+        color: "green-text-gradient",
+      },
+      {
+        name: "restapi",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: ecoomerce,
+    onlineRepo: live,
+    source_code_link: "https://apnastore.cyclic.app/",
+  },
   {
     name: "Fitness App",
     description:
@@ -268,5 +391,30 @@ const projects = [
   //   source_code_link: "https://github.com/Rohit-Yadavv/Music-Player",
   // },
 ];
-
-export { services, technologies, testimonials, projects };
+const experiences = [
+  {
+    title: "Open Source Lead at GDSC CUH",
+    company_name: "Google Developer Students Club",
+    icon: gdsc,
+    iconBg: "#383E56",
+    date: "March 2020 - April 2021",
+    points: [
+      "Lead and coordinate open-source initiatives within the GDSC community.",
+      "Manage and mentor a team of developers and contributors.",
+      "Organized open-source events to encourage participation and contributions from club members.",
+    ],
+  },
+  {
+    title: "HacktoberFest 2023",
+    company_name: "Hacktoberfest",
+    icon: hacktoberfest,
+    iconBg: "#383E56",
+    date: "March 2020 - April 2021",
+    points: [
+      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Among first 50,000 contributors during Hacktoberfest, tree planted in honor by digitalOcean.",
+      "Successfully Merged 4 Pull Requests (PRs) into open-source repositories during the event."
+    ],
+  },
+]
+export { experiences, services, technologies, testimonials, projects };
