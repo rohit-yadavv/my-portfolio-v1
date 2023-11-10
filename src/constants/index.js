@@ -202,9 +202,7 @@ const projects = [
   {
     name: "LearnEaseU",
     description:
-      "Questify is a dynamic and user-friendly MERN Blogging1 application I developed to create and manage my blogs effectively.",
-    // • Features: Admin Dashboard, User Authentication, SEO Optimization, User Profiles, Liked Articles
-    // • Skill: MERN Stack, Javascript, Authentication, Cookies, JWT, Bcryptjs, react-helmet(SEO), MongoDB, DataBase"
+      "Website to simplify studies of CUH students. Download Sessionals,Study materials, and PYQs of Central University of Haryana.",
     tags: [
       {
         name: "nextjs",
