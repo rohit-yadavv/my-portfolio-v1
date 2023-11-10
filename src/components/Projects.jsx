@@ -19,10 +19,14 @@ const ProjectCard = ({
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
       <Tilt
+        disableTiltOnMobile={true}
         options={{
-          max: 45,
+          max: 10,
           scale: 1,
           speed: 450,
+          transition: true,
+          easing: "cubic-bezier(.03,.98,.52,.99)",
+          reset: true,
         }}
         className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full opacity-100"
         style={{ opacity: "1" }}
