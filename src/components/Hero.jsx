@@ -8,18 +8,28 @@ const Hero = () => {
     <section className={`relative w-full mx-auto`} style={{ height: "100vh" }}>
       <ParticlesBackground />
       <div
-        className={`absolute inset-0 top-[120px] max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5 justify-start`}
+        className={`h-[60%] items-center justify-center w-full absolute inset-0 top-[120px] max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5 justify-start`}
       >
-        <div className="flex flex-col justify-center items-center mt-5">
+        {/* <div className="hidden  flex-col justify-center items-center mt-5">
           <div className="w-5 h-5 rounded-full bg-[#915EFF]" />
           <div className="w-1 sm:h-80 h-40 violet-gradient" />
-        </div>
+        </div> */}
 
         <div style={{ paddingTop: "25px" }}>
-          <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className="text-[#915EFF]">ROHIT</span>
+          <h1
+            className={`${styles.heroHeadText} text-center font-extralight sm:font-extrabold  text-white`}
+          >
+            Hi, I'm{" "}
+            <span className="text-center hidden sm:inline text-[#915EFF]">
+              ROHIT
+            </span>
           </h1>
-          <p className={`${styles.heroSubText} text-2xl mt-2 text-white-100`}>
+          <span className=" text-center block sm:hidden text-[#915EFF] text-[80px] font-extrabold">
+            ROHIT
+          </span>
+          <p
+            className={`${styles.heroSubText} text-center font-light text-[25px] mt-2 text-white-100`}
+          >
             <Typewriter
               words={[
                 "MERN Developer",
@@ -39,7 +49,9 @@ const Hero = () => {
             {/* <br className="sm:block hidden" />
             interfaces and web applications */}
           </p>
-          <p className="text-xl mt-2 text-white-100">Welcome To my Portfolio</p>
+          <p className="text-center font-extralight text-[25px] mt-2 text-white-100">
+            Welcome To my Portfolio
+          </p>
         </div>
       </div>
 

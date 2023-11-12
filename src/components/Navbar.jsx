@@ -99,7 +99,7 @@ const Navbar = () => {
               ))}
               <li
                 className={
-                  "font-poppins font-medium cursor-pointer text-[16px]"
+                  "font-poppins font-medium cursor-pointer text-[16px] text-secondary"
                 }
               >
                 <a
