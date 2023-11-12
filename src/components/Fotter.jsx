@@ -14,24 +14,18 @@ export default function Fotter() {
           </div>
         </div>
         <ul className="flex items-center xl:gap-5 sm:gap-4 gap-2">
-          {/* <li className='contact_icon cursor-pointer' >
-                        <img  onClick={() => window.open("https://www.facebook.com/RohitYadav.532", "_blank")} src={Facebook} className='sm:w-20 w-24 object-contain' alt='email' />
-                    </li> */}
           <li
             onClick={() =>
               window.open("https://github.com/Rohit-Yadavv", "_blank")
             }
-            className="contact_icon cursor-pointer"
+            className="contact_icon  cursor-pointer"
           >
             <img
               src={GitHub}
-              className="sm:w-20 w-24 object-contain"
+              className="sm:w-12 w-16 object-contain"
               alt="facebook"
             />
           </li>
-          {/* <li onClick={() => window.open("https://www.instagram.com/rewarrior_532/?hl=en", "_blank")} className='contact_icon cursor-pointer'>
-                        <img src={Instagram} className='sm:w-20 w-24 object-contain' alt='instagram' />
-                    </li> */}
           <li
             onClick={() =>
               window.open(
@@ -43,7 +37,7 @@ export default function Fotter() {
           >
             <img
               src={LinkedIn}
-              className="sm:w-20 w-24 object-contain"
+              className="sm:w-12 w-16 object-contain"
               alt="linkedin"
             />
           </li>
@@ -53,7 +47,7 @@ export default function Fotter() {
           >
             <img
               src={Email}
-              className="sm:w-20 w-24 object-contain"
+              className="sm:w-12 w-16 object-contain"
               alt="linkedin"
             />
           </li>
