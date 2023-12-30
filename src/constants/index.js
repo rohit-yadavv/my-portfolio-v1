@@ -31,6 +31,7 @@ import {
   sql,
   redux,
   learneaseu,
+  weboverflow,
   hacktoberfest,
   questify,
   firebase,
@@ -42,7 +43,7 @@ import {
   cpp,
   nextjs,
   prisma,
-  vercel
+  vercel,web3scope
 } from "../assets";
 
 export const navLinks = [
@@ -200,6 +201,28 @@ const testimonials = [
 ];
 const projects = [
   {
+    name: "webOverflow",
+    description:
+      "WebOverflow is a dynamic Q&A platform where you can post, answer, upvote and downvote questions",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "green-text-gradient",
+      },
+      {
+        name: "shadecn",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: weboverflow,
+    onlineRepo: live,
+    source_code_link: "https://weboverflow.vercel.app/",
+  },
+  {
     name: "LearnEaseU",
     description:
       "Website to simplify studies of CUH students. Download Sessionals,Study materials, and PYQs of Central University of Haryana.",
@@ -311,28 +334,28 @@ const projects = [
     onlineRepo: live,
     source_code_link: "https://live-weather-check.netlify.app/",
   },
-  {
-    name: "News App",
-    description:
-      "Application that provides a efficient way to search for any type of News with categories Entertainment, Sports, Technology etc.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "newsapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: ApniNews,
-    onlineRepo: github,
-    source_code_link: "https://github.com/Rohit-Yadavv/ApniNews",
-  },
+  // {
+  //   name: "News App",
+  //   description:
+  //     "Application that provides a efficient way to search for any type of News with categories Entertainment, Sports, Technology etc.",
+  //   tags: [
+  //     {
+  //       name: "react",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "newsapi",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "tailwind",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: ApniNews,
+  //   onlineRepo: github,
+  //   source_code_link: "https://github.com/Rohit-Yadavv/ApniNews",
+  // },
 
   // {
   //   name: "To DO List",
@@ -390,6 +413,18 @@ const projects = [
   // },
 ];
 const experiences = [
+  {
+    title: "FullStack Development Intern at GDSC CUH",
+    company_name: "Web3Scope",
+    icon: web3scope,
+    iconBg: "#383E56",
+    date: "Nov 2023 - Present",
+    points: [
+      "Contributed in building the MVP of Web3Scope and worked on various MVP applications as part of an incubator project.",
+      "Acquired and strengthened skills in full-stack development, gaining hands-on experience in building web applications.",
+      "Received positive feedback for contributions, highlighting a proactive and impactful approach.",
+    ],
+  },
   {
     title: "Open Source Lead at GDSC CUH",
     company_name: "Google Developer Students Club",

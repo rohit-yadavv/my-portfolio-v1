@@ -51,14 +51,16 @@ import LinkedIn from "./links/LinkedIn.png";
 import Email from "./links/Email.png";
 
 import gdsc from "./gdsc-logo.png";
+import web3scope from "./web3scope.jpg";
 import hacktoberfest from "./hacktoberfest.png";
 import learneaseu from "./learneaseu.png";
+import weboverflow from "./weboverflow.png";
 
 import HarshitImg from "./HarshitImg.png";
 
 export {
   questify, ecoomerce,
-  hacktoberfest, learneaseu,
+  hacktoberfest, learneaseu,weboverflow,web3scope,
   gdsc,
   logo,
   backend,

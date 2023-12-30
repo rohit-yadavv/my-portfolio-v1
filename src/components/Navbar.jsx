@@ -55,13 +55,19 @@ const Navbar = () => {
               <a href={`#${nav.id}`}>{nav.title}</a>
             </li>
           ))}
-          <li
-            className={
-              "font-poppins text-secondary hover:text-white text-[18px] font-medium cursor-pointer"
-            }
-          >
+          <li className={"font-poppins text-secondary hover:text-white text-[18px] font-medium cursor-pointer"}>
             <a
               target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.questify.site/"
+            >
+              Blogs
+            </a>
+          </li>
+          <li className={"font-poppins text-secondary hover:text-white text-[18px] font-medium cursor-pointer"}>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
               href="https://1drv.ms/b/s!At7jS8xCqb8timXTt4OM0pnFAM5Y?e=qTPruS"
             >
               Resume
@@ -105,6 +111,7 @@ const Navbar = () => {
                 <a
                   target="_blank"
                   href="https://1drv.ms/b/s!At7jS8xCqb8timXTt4OM0pnFAM5Y?e=qTPruS"
+                  rel="noreferrer"
                 >
                   Resume
                 </a>
