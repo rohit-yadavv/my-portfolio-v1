@@ -20,6 +20,7 @@ import prisma from "./tech/prisma.png";
 import typescript from "./tech/typescript.png";
 import vercel from "./tech/vercel.png";
 import vscode from "./tech/vscode.png";
+import shadecn from "./tech/shadecn.png";
 import mui from "./tech/mui.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
@@ -55,13 +56,14 @@ import web3scope from "./web3scope.jpg";
 import hacktoberfest from "./hacktoberfest.png";
 import learneaseu from "./learneaseu.png";
 import weboverflow from "./weboverflow.png";
+import gecPortal from "./gecPortal.png";
 
 import HarshitImg from "./HarshitImg.png";
 
 export {
   questify, ecoomerce,
-  hacktoberfest, learneaseu,weboverflow,web3scope,
-  gdsc,
+  hacktoberfest, learneaseu,weboverflow,web3scope,shadecn,
+  gdsc,gecPortal,
   logo,
   backend,
   creator,

@@ -43,7 +43,7 @@ import {
   cpp,
   nextjs,
   prisma,
-  vercel,web3scope
+  vercel,web3scope, shadecn, gecPortal
 } from "../assets";
 
 export const navLinks = [
@@ -185,8 +185,10 @@ const technologies = [
     name: "Redux",
     icon: redux,
   },
-
-
+  {
+    name: "UI",
+    icon: shadecn,
+  },
 ];
 
 const testimonials = [
@@ -199,7 +201,30 @@ const testimonials = [
     image: { live },
   },
 ];
+
 const projects = [
+  {
+    name: "GEC PORTAL",
+    description:
+      "Platform for efficient announcement and management of GEC, VAC,and events by teachers,simplifying the application process for 3000+ students.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "green-text-gradient",
+      },
+      {
+        name: "shadecn",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: gecPortal,
+    onlineRepo: live,
+    source_code_link: "https://gec-portal.vercel.app/",
+  },
   {
     name: "webOverflow",
     description:
@@ -412,13 +437,14 @@ const projects = [
   //   source_code_link: "https://github.com/Rohit-Yadavv/Music-Player",
   // },
 ];
-const experiences = [
+
+const experiences = [ 
   {
-    title: "FullStack Development Intern at GDSC CUH",
+    title: "FullStack Development Intern at web3scope",
     company_name: "Web3Scope",
     icon: web3scope,
     iconBg: "#383E56",
-    date: "Nov 2023 - Present",
+    date: "Nov 2023 - Jan 2024",
     points: [
       "Contributed in building the MVP of Web3Scope and worked on various MVP applications as part of an incubator project.",
       "Acquired and strengthened skills in full-stack development, gaining hands-on experience in building web applications.",
@@ -450,4 +476,5 @@ const experiences = [
     ],
   },
 ]
+
 export { experiences, services, technologies, testimonials, projects };

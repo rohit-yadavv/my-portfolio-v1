@@ -68,7 +68,7 @@ const Navbar = () => {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://1drv.ms/b/s!At7jS8xCqb8timXTt4OM0pnFAM5Y?e=qTPruS"
+              href="https://1drv.ms/b/s!At7jS8xCqb8tixFl_6aRfaz5tbqG?e=v5q21X"
             >
               Resume
             </a>
