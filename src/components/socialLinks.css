@@ -32,12 +32,16 @@
 }
 
 .Resume {
-  background-color: #fd1d1d; /* Red for Resume */
+  background-color: #0a66c2; /* Red for Resume */
   color: #fff;
 }
 
 .Blogs {
-  background-color: #e7a529; /* Blue for Blogs */
+  background-color: #fd1d1d; /* Blue for Blogs */
+  color: #fff;
+}
+.Mail {
+  background-color: #fd1d1d; /* Blue for Blogs */
   color: #fff;
 }
 
@@ -71,7 +75,13 @@
 .sticky-icon a i.fa-linkedin {
   color: #0a66c2; /* Blue for LinkedIn */
 }
+.sticky-icon a i.fa-download {
+  color: #0a66c2;
+}
+.sticky-icon a i.fa-envelope {
+  color: #fd1d1d;
+}
 
 .sticky-icon a i.fa-blog {
-  color: #e7a529; /* Blue for LinkedIn */
+  color: #fd1d1d; /* Blue for LinkedIn */
 }

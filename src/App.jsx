@@ -20,7 +20,7 @@ const App = () => {
         innerSize={15}
         outerSize={30}
         color="250, 101, 60"
-        outerAlpha={0.5}
+        outerAlpha={0.3}
         innerScale={0.6}
         outerScale={2.5}
         clickables={[
