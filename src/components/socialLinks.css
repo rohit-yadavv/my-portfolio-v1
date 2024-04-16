@@ -1,23 +1,21 @@
 /* socialLinks.css */
 .sticky-icon {
+  @apply w-[140px] sm:w-[220px];
   z-index: 1;
   position: fixed;
   top: 15%;
   right: 0%;
-  width: 220px;
   display: flex;
   flex-direction: column;
 }
 
 .sticky-icon a {
-  transform: translate(160px, 0px);
+  @apply text-[16px] m-[2px] sm:text-[22px] transform translate-x-[110px] sm:translate-x-[160px];
   border-radius: 50px 0px 0px 50px;
   text-align: left;
-  margin: 2px;
   text-decoration: none;
   text-transform: uppercase;
-  padding: 10px;
-  font-size: 22px;
+  padding: 5px;
   font-family: "Oswald", sans-serif;
   transition: all 0.8s;
 }
@@ -56,14 +54,7 @@
 }
 
 .sticky-icon a i {
-  background-color: #fff;
-  height: 40px;
-  width: 40px;
-  color: #000;
-  text-align: center;
-  line-height: 40px;
-  border-radius: 50%;
-  margin-right: 20px;
+  @apply h-[25px] w-[25px] text-center rounded-full mr-[20px]  bg-white text-black leading-[25px] sm:leading-[40px] sm:w-[40px] sm:h-[40px];
   transition: all 0.5s;
 }
 
