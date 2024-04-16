@@ -55,7 +55,11 @@ const Navbar = () => {
               <a href={`#${nav.id}`}>{nav.title}</a>
             </li>
           ))}
-          <li className={"font-poppins text-secondary hover:text-white text-[18px] font-medium cursor-pointer"}>
+          <li
+            className={
+              "font-poppins text-secondary hover:text-white text-[18px] font-medium cursor-pointer"
+            }
+          >
             <a
               target="_blank"
               rel="noopener noreferrer"
@@ -64,7 +68,11 @@ const Navbar = () => {
               Blogs
             </a>
           </li>
-          <li className={"font-poppins text-secondary hover:text-white text-[18px] font-medium cursor-pointer"}>
+          <li
+            className={
+              "font-poppins text-secondary hover:text-white text-[18px] font-medium cursor-pointer"
+            }
+          >
             <a
               target="_blank"
               rel="noopener noreferrer"

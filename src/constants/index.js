@@ -43,7 +43,10 @@ import {
   cpp,
   nextjs,
   prisma,
-  vercel,web3scope, shadecn, gecPortal
+  vercel,
+  web3scope,
+  shadecn,
+  gecPortal,
 } from "../assets";
 
 export const navLinks = [
@@ -194,11 +197,10 @@ const technologies = [
 const testimonials = [
   {
     testimonial:
-      "Rohit has expertise in React that allowed him to create beautiful, responsive, and user-friendly interfaces that exceedes my expectations.",
-    name: "Harshit",
-    designation: "Student",
-    company: "CUH",
-    image: { live },
+      "Rohit has expertise in Next.js that allowed him to create beautiful, responsive, and robust interfaces that exceeds my expectations.",
+    name: "Ashutosh",
+    designation: "HR",
+    company: "web3scope",
   },
 ];
 
@@ -223,7 +225,7 @@ const projects = [
     ],
     image: gecPortal,
     onlineRepo: live,
-    source_code_link: "https://gec-portal.vercel.app/",
+    source_code_link: "https://github.com/rohit-yadavv/gec-portal",
   },
   {
     name: "webOverflow",
@@ -245,7 +247,7 @@ const projects = [
     ],
     image: weboverflow,
     onlineRepo: live,
-    source_code_link: "https://weboverflow.vercel.app/",
+    source_code_link: "https://github.com/Rohit-Yadavv/weboverflow",
   },
   {
     name: "LearnEaseU",
@@ -267,7 +269,7 @@ const projects = [
     ],
     image: learneaseu,
     onlineRepo: live,
-    source_code_link: "https://learneaseu.vercel.app/",
+    source_code_link: "https://github.com/rohit-yadavv/cuh-help",
   },
   {
     name: "Questify",
@@ -291,7 +293,7 @@ const projects = [
     ],
     image: questify,
     onlineRepo: live,
-    source_code_link: "https://www.questify.site/",
+    source_code_link: "https://github.com/Rohit-Yadavv/questify",
   },
   {
     name: "Ecommerce App",
@@ -313,7 +315,8 @@ const projects = [
     ],
     image: ecoomerce,
     onlineRepo: live,
-    source_code_link: "https://apnastore.cyclic.app/",
+    source_code_link:
+      "https://github.com/rohit-yadavv/ecommerce-production-app/",
   },
   {
     name: "Fitness App",
@@ -335,7 +338,7 @@ const projects = [
     ],
     image: totalFitness,
     onlineRepo: live,
-    source_code_link: "https://rohit-fitnesss.netlify.app/",
+    source_code_link: "https://github.com/rohit-yadavv/total-fitness/",
   },
   {
     name: "Weather App",
@@ -357,30 +360,30 @@ const projects = [
     ],
     image: WeatherApp,
     onlineRepo: live,
-    source_code_link: "https://live-weather-check.netlify.app/",
+    source_code_link: "https://github.com/rohit-yadavv/My-weather-App/",
   },
-  // {
-  //   name: "News App",
-  //   description:
-  //     "Application that provides a efficient way to search for any type of News with categories Entertainment, Sports, Technology etc.",
-  //   tags: [
-  //     {
-  //       name: "react",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "newsapi",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "tailwind",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: ApniNews,
-  //   onlineRepo: github,
-  //   source_code_link: "https://github.com/Rohit-Yadavv/ApniNews",
-  // },
+  {
+    name: "News App",
+    description:
+      "Application that provides a efficient way to search for any type of News with categories Entertainment, Sports, Technology etc.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "newsapi",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: ApniNews,
+    onlineRepo: github,
+    source_code_link: "https://github.com/Rohit-Yadavv/ApniNews",
+  },
 
   // {
   //   name: "To DO List",
@@ -400,24 +403,24 @@ const projects = [
   //   onlineRepo: live,
   //   source_code_link: "https://tonotes.netlify.app",
   // },
-  // {
-  //   name: "Tic Tac Toe",
-  //   description:
-  //     "Offers a fun and interactive way to play the classic game of tic-tac-toe with intuitive and user-friendly interface ",
-  //   tags: [
-  //     {
-  //       name: "javascript",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "css",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: TicTacToe,
-  //   onlineRepo: live,
-  //   source_code_link: "https://apna-tic-tac-toe.netlify.app",
-  // },
+  {
+    name: "Tic Tac Toe",
+    description:
+      "Offers a fun and interactive way to play the classic game of tic-tac-toe with intuitive and user-friendly interface ",
+    tags: [
+      {
+        name: "javascript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: TicTacToe,
+    onlineRepo: live,
+    source_code_link: "https://github.com/rohit-yadavv/tic-tac-toe",
+  },
   // {
   //   name: "Music Player",
   //   description:
@@ -438,7 +441,7 @@ const projects = [
   // },
 ];
 
-const experiences = [ 
+const experiences = [
   {
     title: "FullStack Development Intern at web3scope",
     company_name: "Web3Scope",
@@ -472,9 +475,9 @@ const experiences = [
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Among first 50,000 contributors during Hacktoberfest, tree planted in honor by digitalOcean.",
-      "Successfully Merged 4 Pull Requests (PRs) into open-source repositories during the event."
+      "Successfully Merged 4 Pull Requests (PRs) into open-source repositories during the event.",
     ],
   },
-]
+];
 
 export { experiences, services, technologies, testimonials, projects };
