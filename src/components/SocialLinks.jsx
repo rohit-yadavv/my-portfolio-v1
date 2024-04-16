@@ -1,5 +1,5 @@
 import React from "react";
-import "./socialLinks.css"; // External CSS file for additional styling if needed
+import "./socialLinks.css";
 
 const StickyIcon = () => {
   return (

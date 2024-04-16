@@ -13,7 +13,7 @@ const Footer = () => {
 
   // Function to toggle visibility of the button based on scroll position
   const toggleVisibility = () => {
-    if (window.pageYOffset > 300) {
+    if (window.pageYOffset > 1000) {
       setIsVisible(true);
     } else {
       setIsVisible(false);
@@ -31,26 +31,16 @@ const Footer = () => {
   return (
     <footer className="w-full border-t-2 py-3 border-gray-900 relative">
       {isVisible && (
-        <button
+        <div
+          className="group flex justify-center items-center rounded-full fixed bottom-12 right-3"
           onClick={scrollToTop}
-          className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full fixed bottom-10 right-10 transition duration-300 hidden md:block"
         >
-          <i className="fas fa-arrow-up mr-2"></i>
-          Back to Top
-        </button>
+          <div className="shadow-md flex items-center bg-yellow-800 p-3 rounded-full cursor-pointer duration-300">
+            <i className="fas fa-arrow-up" />
+          </div>
+        </div>
       )}
-      {/* Show just arrow icon on mobile */}
-      {isVisible && (
-        <button
-          onClick={scrollToTop}
-          className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full fixed bottom-10 right-10 transition duration-300 block md:hidden"
-        >
-          <i className="fas fa-arrow-up"></i>
-        </button>
-      )}
-      <div className="flex w-full flex-wrap items-center justify-center">
-        <p>Created with ❤️ by Rohit Yadav</p>
-      </div>
+      <p className="text-center">Created with ❤️ by Rohit Yadav</p>
     </footer>
   );
 };

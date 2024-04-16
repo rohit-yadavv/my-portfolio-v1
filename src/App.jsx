@@ -55,10 +55,10 @@ const App = () => {
         <Experience />
         <Projects />
         <Feedbacks />
-        <div className="relative z-0">
-          <Contact />
-          <Fotter />
-        </div>
+        {/* <div className="relative z-0"> */}
+        <Contact />
+        <Fotter />
+        {/* </div> */}
       </div>
     </BrowserRouter>
   );
