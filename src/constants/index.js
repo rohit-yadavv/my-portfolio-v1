@@ -19,7 +19,7 @@ import {
   WeatherApp,
   ApniNews,
   live,
-  github,
+  githubTech,
   ToDoList,
   TicTacToe,
   ApnaBaaja,
@@ -27,6 +27,7 @@ import {
   sass,
   gdsc,
   ecoomerce,
+  github,
   styledComponent,
   sql,
   redux,
@@ -44,6 +45,7 @@ import {
   sklearn,
   docker,
   cpp,
+  c,
   nextjs,
   prisma,
   vercel,
@@ -52,6 +54,11 @@ import {
   gecPortal,
   numPy,
   exprees,
+  fastapi,
+  flask,
+  figma,
+  linux,
+  mongoose,
 } from "../assets";
 
 export const navLinks = [
@@ -87,136 +94,43 @@ const services = [
     icon: backend,
   },
 ];
-
 const technologies = [
-  {
-    name: "Nextjs",
-    icon: nextjs,
-  },
-  {
-    name: "Docker",
-    icon: docker,
-  },
-  {
-    name: "cpp",
-    icon: cpp,
-  },
-  {
-    name: "Firebase",
-    icon: firebase,
-  },
-  {
-    name: "GraphQl",
-    icon: graphql,
-  },
-  {
-    name: "postgresql",
-    icon: postgresql,
-  },
-  {
-    name: "postman",
-    icon: postman,
-  },
-  {
-    name: "prisma",
-    icon: prisma,
-  },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
-    name: "vercel",
-    icon: vercel,
-  },
-  {
-    name: "html",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "Bootstrap",
-    icon: bootstrap,
-  },
-  {
-    name: "Tailwind",
-    icon: tailwind,
-  },
-  {
-    name: "Material Ui",
-    icon: mui,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "exprees JS",
-    icon: exprees,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Git",
-    icon: git,
-  },
-  {
-    name: "VsCode",
-    icon: vscode,
-  },
-  {
-    name: "sass",
-    icon: sass,
-  },
-  {
-    name: "Styled Component",
-    icon: styledComponent,
-  },
-  {
-    name: "SQL",
-    icon: sql,
-  },
-  {
-    name: "Redux",
-    icon: redux,
-  },
-  {
-    name: "UI",
-    icon: shadecn,
-  },
-  {
-    name: "Python",
-    icon: python,
-  },
-  {
-    name: "NumPy",
-    icon: numPy,
-  },
-  {
-    name: "pandas",
-    icon: pandas,
-  },
-  {
-    name: "scikit-learn",
-    icon: sklearn,
-  },
-  {
-    name: "Python",
-    icon: python,
-  },
+  { name: "C", icon: c },
+  { name: "C++", icon: cpp },
+  { name: "Python", icon: python },
+  { name: "JavaScript", icon: javascript },
+  { name: "TypeScript", icon: typescript },
+  { name: "CSS 3", icon: css },
+  { name: "HTML", icon: html },
+  { name: "Bootstrap", icon: bootstrap },
+  { name: "Tailwind", icon: tailwind },
+  { name: "Material UI", icon: mui },
+  { name: "Styled Component", icon: styledComponent },
+  { name: "Next.js", icon: nextjs },
+  { name: "React JS", icon: reactjs },
+  { name: "Node JS", icon: nodejs },
+  { name: "Express JS", icon: exprees },
+  { name: "Fast API", icon: fastapi },
+  { name: "Flask", icon: flask },
+  { name: "MongoDB", icon: mongodb },
+  { name: "Mongoose", icon: mongoose },
+  { name: "PostgreSQL", icon: postgresql },
+  { name: "Prisma", icon: prisma },
+  { name: "SQL", icon: sql },
+  { name: "Docker", icon: docker },
+  { name: "Firebase", icon: firebase },
+  { name: "Figma", icon: figma },
+  { name: "Git", icon: git },
+  { name: "GitHub", icon: githubTech },
+  { name: "GraphQL", icon: graphql },
+  { name: "Postman", icon: postman },
+  { name: "Redux", icon: redux },
+  { name: "Sass", icon: sass },
+  { name: "UI", icon: shadecn }, // Unclear what this refers to, assuming it's a UI framework or library
+  { name: "NumPy", icon: numPy },
+  { name: "Pandas", icon: pandas },
+  { name: "Scikit-learn", icon: sklearn },
+  { name: "Linux", icon: linux },
 ];
 
 const testimonials = [

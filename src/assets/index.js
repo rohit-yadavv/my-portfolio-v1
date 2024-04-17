@@ -10,11 +10,13 @@ import close from "./close.svg";
 
 import css from "./tech/css.png";
 import cpp from "./tech/cpp.png";
+import c from "./tech/c.png";
 import docker from "./tech/docker.png";
 import firebase from "./tech/firebase.png";
 import graphql from "./tech/graphql.png";
 import nextjs from "./tech/nextjs.png";
 import exprees from "./tech/express.png";
+import fastapi from "./tech/fastapi.png";
 import postgresql from "./tech/postgresSQL.png";
 import postman from "./tech/postman.png";
 import prisma from "./tech/prisma.png";
@@ -39,6 +41,11 @@ import redux from "./tech/redux.png";
 import numPy from "./tech/numPy.png";
 import pandas from "./tech/pandas.png";
 import sklearn from "./tech/sklearn.png";
+import flask from "./tech/flask.png";
+import figma from "./tech/figma.png";
+import linux from "./tech/linux.png";
+import githubTech from "./tech/github.png";
+import mongoose from "./tech/mongoose.png";
 
 import WeatherApp from "./WeatherApp.png";
 import totalFitness from "./totalFitness.png";
@@ -74,6 +81,9 @@ export {
   gecPortal,
   logo,
   backend,
+  fastapi,
+  c,
+  flask,
   creator,
   mobile,
   web,
@@ -83,6 +93,10 @@ export {
   css,
   git,
   html,
+  figma,
+  linux,
+  mongoose,
+  githubTech,
   javascript,
   mongodb,
   nodejs,
