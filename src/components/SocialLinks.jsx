@@ -6,7 +6,7 @@ const StickyIcon = () => {
     <div className="sticky-icon">
       <a
         target="_blank"
-        href="https://1drv.ms/b/s!At7jS8xCqb8tixFl_6aRfaz5tbqG?e=v5q21X"
+        href="https://tinyurl.com/rhtydv"
         className="Linkedin"
         rel="noreferrer"
       >
