@@ -20,7 +20,7 @@ import fastapi from "./tech/fastapi.png";
 import postgresql from "./tech/postgresSQL.png";
 import postman from "./tech/postman.png";
 import prisma from "./tech/prisma.png";
-import typescript from "./tech/typeScript.png";
+import typescript from "./tech/typescript.png";
 import vercel from "./tech/vercel.png";
 import vscode from "./tech/vscode.png";
 import shadecn from "./tech/shadecn.png";
