@@ -14,17 +14,18 @@ import docker from "./tech/docker.png";
 import firebase from "./tech/firebase.png";
 import graphql from "./tech/graphql.png";
 import nextjs from "./tech/nextjs.png";
-import postgresql from "./tech/postgresql.png";
+import exprees from "./tech/express.png";
+import postgresql from "./tech/postgresSQL.png";
 import postman from "./tech/postman.png";
 import prisma from "./tech/prisma.png";
-import typescript from "./tech/typescript.png";
+import typescript from "./tech/typeScript.png";
 import vercel from "./tech/vercel.png";
 import vscode from "./tech/vscode.png";
 import shadecn from "./tech/shadecn.png";
 import mui from "./tech/mui.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
-import javascript from "./tech/javascript.png";
+import javascript from "./tech/javaScript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
@@ -35,6 +36,9 @@ import sass from "./tech/sass.png";
 import styledComponent from "./tech/styledComponent.png";
 import sql from "./tech/sql.png";
 import redux from "./tech/redux.png";
+import numPy from "./tech/numPy.png";
+import pandas from "./tech/pandas.png";
+import sklearn from "./tech/sklearn.png";
 
 import WeatherApp from "./WeatherApp.png";
 import totalFitness from "./totalFitness.png";
@@ -58,12 +62,16 @@ import learneaseu from "./learneaseu.png";
 import weboverflow from "./weboverflow.png";
 import gecPortal from "./gecPortal.png";
 
-import HarshitImg from "./HarshitImg.png";
-
 export {
-  questify, ecoomerce,
-  hacktoberfest, learneaseu,weboverflow,web3scope,shadecn,
-  gdsc,gecPortal,
+  questify,
+  ecoomerce,
+  hacktoberfest,
+  learneaseu,
+  weboverflow,
+  web3scope,
+  shadecn,
+  gdsc,
+  gecPortal,
   logo,
   backend,
   creator,
@@ -78,6 +86,10 @@ export {
   javascript,
   mongodb,
   nodejs,
+  exprees,
+  numPy,
+  pandas,
+  sklearn,
   reactjs,
   tailwind,
   vscode,
@@ -94,7 +106,6 @@ export {
   ApnaBaaja,
   ToDoList,
   TicTacToe,
-  HarshitImg,
   ApniNews,
   Facebook,
   GitHub,

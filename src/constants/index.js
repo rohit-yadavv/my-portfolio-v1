@@ -39,6 +39,9 @@ import {
   postgresql,
   postman,
   typescript,
+  numpy,
+  pandas,
+  sklearn,
   docker,
   cpp,
   nextjs,
@@ -47,6 +50,8 @@ import {
   web3scope,
   shadecn,
   gecPortal,
+  numPy,
+  exprees,
 } from "../assets";
 
 export const navLinks = [
@@ -157,6 +162,10 @@ const technologies = [
     icon: nodejs,
   },
   {
+    name: "exprees JS",
+    icon: exprees,
+  },
+  {
     name: "MongoDB",
     icon: mongodb,
   },
@@ -167,10 +176,6 @@ const technologies = [
   {
     name: "VsCode",
     icon: vscode,
-  },
-  {
-    name: "Python",
-    icon: python,
   },
   {
     name: "sass",
@@ -191,6 +196,26 @@ const technologies = [
   {
     name: "UI",
     icon: shadecn,
+  },
+  {
+    name: "Python",
+    icon: python,
+  },
+  {
+    name: "NumPy",
+    icon: numPy,
+  },
+  {
+    name: "pandas",
+    icon: pandas,
+  },
+  {
+    name: "scikit-learn",
+    icon: sklearn,
+  },
+  {
+    name: "Python",
+    icon: python,
   },
 ];
 
