@@ -147,7 +147,7 @@ const projects = [
   {
     name: "GEC PORTAL",
     description:
-      "Platform for efficient announcement and management of GEC, VAC,and events by teachers,simplifying the application process for 3000+ students.",
+      "Platform for efficient management of GECs,VACs and events.,simplifying the application process for 5000+ students.",
     tags: [
       {
         name: "nextjs",
