@@ -59,6 +59,8 @@ import {
   figma,
   linux,
   mongoose,
+  matplotlib,
+  seaborn,
 } from "../assets";
 
 export const navLinks = [
@@ -94,18 +96,21 @@ const services = [
     icon: backend,
   },
 ];
+
 const technologies = [
   { name: "C", icon: c },
   { name: "C++", icon: cpp },
   { name: "Python", icon: python },
   { name: "JavaScript", icon: javascript },
   { name: "TypeScript", icon: typescript },
-  { name: "CSS 3", icon: css },
   { name: "HTML", icon: html },
+  { name: "CSS 3", icon: css },
   { name: "Bootstrap", icon: bootstrap },
   { name: "Tailwind", icon: tailwind },
   { name: "Material UI", icon: mui },
   { name: "Styled Component", icon: styledComponent },
+  { name: "Sass", icon: sass },
+  { name: "UI", icon: shadecn },
   { name: "Next.js", icon: nextjs },
   { name: "React JS", icon: reactjs },
   { name: "Node JS", icon: nodejs },
@@ -113,7 +118,7 @@ const technologies = [
   { name: "Fast API", icon: fastapi },
   { name: "Flask", icon: flask },
   { name: "MongoDB", icon: mongodb },
-  { name: "Mongoose", icon: mongoose },
+  // { name: "Mongoose", icon: mongoose },
   { name: "PostgreSQL", icon: postgresql },
   { name: "Prisma", icon: prisma },
   { name: "SQL", icon: sql },
@@ -123,12 +128,11 @@ const technologies = [
   { name: "Git", icon: git },
   { name: "GitHub", icon: githubTech },
   { name: "GraphQL", icon: graphql },
-  { name: "Postman", icon: postman },
   { name: "Redux", icon: redux },
-  { name: "Sass", icon: sass },
-  { name: "UI", icon: shadecn }, // Unclear what this refers to, assuming it's a UI framework or library
   { name: "NumPy", icon: numPy },
   { name: "Pandas", icon: pandas },
+  { name: "matplotlib", icon: matplotlib },
+  { name: "seaborn", icon: seaborn },
   { name: "Scikit-learn", icon: sklearn },
   { name: "Linux", icon: linux },
 ];

@@ -61,7 +61,15 @@ const About = () => {
         📚 Constantly learning and innovating in the ever-evolving tech world.
         <br />
       </div>
-
+      <embed
+        title="resume"
+        // src="https://onedrive.live.com/embed?resid=2DBFA942CC4BE3DE%211425&authkey=!AGlO6I2GIEPwK40&em=2"
+        src="https://drive.google.com/file/d/1HU83x1dAdo2GT2GE3BBhA0XDEOAuaZ-K/preview"
+        type="application/pdf"
+        width="550px"
+        height="300px"
+        className="absolute rounded-sm right-10 top-10"
+      ></embed>
       <div className="mt-20 flex flex-wrap gap-10 justify-center">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />

@@ -36,6 +36,8 @@ import tailwind from "./tech/tailwind.png";
 import python from "./tech/python.png";
 import sass from "./tech/sass.png";
 import styledComponent from "./tech/styledComponent.png";
+import matplotlib from "./tech/matplotlib.png";
+import seaborn from "./tech/seaborn.png";
 import sql from "./tech/sql.png";
 import redux from "./tech/redux.png";
 import numPy from "./tech/numPy.png";
@@ -84,6 +86,8 @@ export {
   fastapi,
   c,
   flask,
+  matplotlib,
+  seaborn,
   creator,
   mobile,
   web,

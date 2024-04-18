@@ -4,14 +4,14 @@ import "./socialLinks.css";
 const StickyIcon = () => {
   return (
     <div className="sticky-icon">
-      <a
+      {/* <a
         target="_blank"
-        href="https://tinyurl.com/rhtydv"
+        href="https://leetcode.com/rohityadavv/"
         className="Linkedin"
         rel="noreferrer"
       >
-        <i className="fas fa-download"></i> Resume
-      </a>
+        <i className="fab fa-download"></i> Resume
+      </a> */}
       <a
         target="_blank"
         href="mailto:rohitydv056@gmail.com"
@@ -24,7 +24,7 @@ const StickyIcon = () => {
       <a
         target="_blank"
         href="https://github.com/rohit-yadavv/"
-        className="GitHub"
+        className="Linkedin"
         rel="noreferrer"
       >
         <i className="fab fa-github"></i> GitHub
