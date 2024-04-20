@@ -44,7 +44,7 @@
 }
 
 .GitHub {
-  background-color: #1b1b1b; /* Black for GitHub */
+  background-color: #fd1d1d; /* Black for GitHub */
   color: #fff;
 }
 
@@ -60,7 +60,7 @@
 
 /* Additional styling for specific icons */
 .sticky-icon a i.fa-github {
-  color: #000000; /* White for GitHub */
+  color: #fd1d1d; /* White for GitHub */
 }
 
 .sticky-icon a i.fa-linkedin {
