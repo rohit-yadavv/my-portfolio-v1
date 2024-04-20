@@ -1,6 +1,6 @@
 import React from "react";
 import "./socialLinks.css";
-import { GitHub, LinkedIn, blog, email, resume } from "../assets";
+import { LinkedIn, blog, email, githubSocialLink, resume } from "../assets";
 
 const StickyIcon = () => {
   return (
@@ -31,7 +31,7 @@ const StickyIcon = () => {
         className="GitHub"
         rel="noreferrer"
       >
-        <img alt="GitHub" src={GitHub} width={50} height={50} />
+        <img alt="GitHub" src={githubSocialLink} width={50} height={50} />
         GitHub
       </a>
 
