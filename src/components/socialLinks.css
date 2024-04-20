@@ -1,5 +1,6 @@
+/* socialLinks.css */
 .sticky-icon {
-  @apply w-[140px] sm:w-[180px];
+  @apply w-[140px] sm:w-[220px];
   z-index: 1;
   position: fixed;
   top: 15%;
@@ -9,7 +10,7 @@
 }
 
 .sticky-icon a {
-  @apply text-[16px] m-[2px] sm:text-[22px] transform translate-x-[110px] sm:translate-x-[130px] flex items-center justify-start;
+  @apply text-[16px] m-[2px] sm:text-[22px] transform translate-x-[110px] sm:translate-x-[160px];
   border-radius: 50px 0px 0px 50px;
   text-align: left;
   text-decoration: none;
@@ -17,24 +18,8 @@
   padding: 5px;
   font-family: "Oswald", sans-serif;
   transition: all 0.8s;
-  color: white;
 }
 
-.GitHub {
-  background-color: black;
-}
-.Email {
-  background-color: #6074d4;
-}
-.Resume {
-  background-color: #6074d4;
-}
-.Linkedin {
-  background-color: #4295c2;
-}
-.Blogs {
-  background-color: #4295c2;
-}
 .sticky-icon a:hover {
   color: #fff;
   transform: translate(0px, 0px);
@@ -44,15 +29,50 @@
   transform: rotate(360deg);
 }
 
-.sticky-icon a:hover img {
-  transform: rotate(360deg);
+.Resume {
+  background-color: #0a66c2; /* Red for Resume */
+  color: #fff;
+}
+
+.Blogs {
+  background-color: #fd1d1d; /* Blue for Blogs */
+  color: #fff;
+}
+.Mail {
+  background-color: #fd1d1d; /* Blue for Blogs */
+  color: #fff;
+}
+
+.GitHub {
+  background-color: #1b1b1b; /* Black for GitHub */
+  color: #fff;
+}
+
+.Linkedin {
+  background-color: #0a66c2; /* Blue for LinkedIn */
+  color: #fff;
 }
 
 .sticky-icon a i {
   @apply h-[25px] w-[25px] text-center rounded-full mr-[20px]  bg-white text-black leading-[25px] sm:leading-[40px] sm:w-[40px] sm:h-[40px];
   transition: all 0.5s;
 }
-.sticky-icon a img {
-  @apply h-[25px] w-[25px] text-center rounded-full mr-[20px]  bg-white text-black leading-[25px] sm:leading-[40px] sm:w-[40px] sm:h-[40px];
-  transition: all 0.5s;
+
+/* Additional styling for specific icons */
+.sticky-icon a i.fa-github {
+  color: #000000; /* White for GitHub */
+}
+
+.sticky-icon a i.fa-linkedin {
+  color: #0a66c2; /* Blue for LinkedIn */
+}
+.sticky-icon a i.fa-download {
+  color: #0a66c2;
+}
+.sticky-icon a i.fa-envelope {
+  color: #fd1d1d;
+}
+
+.sticky-icon a i.fa-blog {
+  color: #fd1d1d; /* Blue for LinkedIn */
 }

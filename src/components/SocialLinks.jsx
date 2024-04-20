@@ -1,6 +1,5 @@
 import React from "react";
 import "./socialLinks.css";
-import { LinkedIn, blog, email, githubSocialLink, resume } from "../assets";
 
 const StickyIcon = () => {
   return (
@@ -8,21 +7,18 @@ const StickyIcon = () => {
       <a
         target="_blank"
         href="https://tinyurl.com/rhtydv"
-        className="Resume"
-        rel="noreferrer"
-      >
-        <img alt="resume" src={resume} />
-        Resume
-      </a>
-
-      <a
-        target="_blank"
-        href="https://www.linkedin.com/in/rohityadavv"
         className="Linkedin"
         rel="noreferrer"
       >
-        <img alt="linkedin" src={LinkedIn} width={50} height={50} />
-        Linkedin
+        <i className="fas fa-download"></i> Resume
+      </a>
+      <a
+        target="_blank"
+        href="mailto:rohitydv056@gmail.com"
+        className="Blogs"
+        rel="noreferrer"
+      >
+        <i className="fas fa-envelope"></i> Email
       </a>
 
       <a
@@ -31,27 +27,24 @@ const StickyIcon = () => {
         className="GitHub"
         rel="noreferrer"
       >
-        <img alt="GitHub" src={githubSocialLink} width={50} height={50} />
-        GitHub
+        <i className="fab fa-github"></i> GitHub
       </a>
-
       <a
         target="_blank"
         href="https://questify.site"
         className="Blogs"
         rel="noreferrer"
       >
-        <img alt="blog" src={blog} width={50} height={50} /> Blogs
+        <i className="fas fa-blog"></i> Blogs
       </a>
 
       <a
         target="_blank"
-        href="mailto:rohitydv056@gmail.com"
-        className="Email"
+        href="https://www.linkedin.com/in/rohityadavv"
+        className="Linkedin"
         rel="noreferrer"
       >
-        <img alt="email" src={email} />
-        Email
+        <i className="fab fa-linkedin"></i> Linkedin
       </a>
     </div>
   );
