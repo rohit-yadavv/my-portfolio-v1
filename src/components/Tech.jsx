@@ -26,6 +26,7 @@ const Tech = () => {
             {technologies.map((technology) => (
               <div className="outer_circle">
                 <img
+                  alt={technology.name}
                   style={{
                     margin: "10px",
                     padding: "10px",

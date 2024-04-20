@@ -1,5 +1,6 @@
 import React from "react";
 import "./socialLinks.css";
+import { GitHub, LinkedIn, blog, email, resume } from "../assets";
 
 const StickyIcon = () => {
   return (
@@ -7,35 +8,11 @@ const StickyIcon = () => {
       <a
         target="_blank"
         href="https://tinyurl.com/rhtydv"
-        className="Linkedin"
+        className="Resume"
         rel="noreferrer"
       >
-        <i className="fas fa-download"></i> Resume
-      </a>
-      <a
-        target="_blank"
-        href="mailto:rohitydv056@gmail.com"
-        className="Blogs"
-        rel="noreferrer"
-      >
-        <i className="fas fa-envelope"></i> Email
-      </a>
-
-      <a
-        target="_blank"
-        href="https://github.com/rohit-yadavv/"
-        className="GitHub"
-        rel="noreferrer"
-      >
-        <i className="fab fa-github"></i> GitHub
-      </a>
-      <a
-        target="_blank"
-        href="https://questify.site"
-        className="Blogs"
-        rel="noreferrer"
-      >
-        <i className="fas fa-blog"></i> Blogs
+        <img alt="resume" src={resume} />
+        Resume
       </a>
 
       <a
@@ -44,7 +21,37 @@ const StickyIcon = () => {
         className="Linkedin"
         rel="noreferrer"
       >
-        <i className="fab fa-linkedin"></i> Linkedin
+        <img alt="linkedin" src={LinkedIn} width={50} height={50} />
+        Linkedin
+      </a>
+
+      <a
+        target="_blank"
+        href="https://github.com/rohit-yadavv/"
+        className="GitHub"
+        rel="noreferrer"
+      >
+        <img alt="GitHub" src={GitHub} width={50} height={50} />
+        GitHub
+      </a>
+
+      <a
+        target="_blank"
+        href="https://questify.site"
+        className="Blogs"
+        rel="noreferrer"
+      >
+        <img alt="blog" src={blog} width={50} height={50} /> Blogs
+      </a>
+
+      <a
+        target="_blank"
+        href="mailto:rohitydv056@gmail.com"
+        className="Email"
+        rel="noreferrer"
+      >
+        <img alt="email" src={email} />
+        Email
       </a>
     </div>
   );

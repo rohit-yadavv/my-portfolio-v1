@@ -57,12 +57,13 @@ import ToDoList from "./ToDoList.png";
 import TicTacToe from "./TicTacToe.png";
 import questify from "./questify.png";
 import ecoomerce from "./ecoomerce.png";
+import quizapp from "./quizapp.png";
 
-import Facebook from "./links/Facebook.png";
-import GitHub from "./links/GitHub.png";
-import Instagram from "./links/Instagram.png";
-import LinkedIn from "./links/LinkedIn.png";
-import Email from "./links/Email.png";
+import GitHub from "./links/github.png";
+import blog from "./links/blog.png";
+import LinkedIn from "./links/linkedin.png";
+import resume from "./links/resume.png";
+import email from "./links/email.png";
 
 import gdsc from "./gdsc-logo.png";
 import web3scope from "./web3scope.jpg";
@@ -74,6 +75,7 @@ import gecPortal from "./gecPortal.png";
 export {
   questify,
   ecoomerce,
+  resume,
   hacktoberfest,
   learneaseu,
   weboverflow,
@@ -84,12 +86,14 @@ export {
   logo,
   backend,
   fastapi,
+  blog,
   c,
   flask,
   matplotlib,
   seaborn,
   creator,
   mobile,
+  quizapp,
   web,
   github,
   menu,
@@ -125,11 +129,9 @@ export {
   ToDoList,
   TicTacToe,
   ApniNews,
-  Facebook,
   GitHub,
-  Instagram,
   LinkedIn,
-  Email,
+  email,
   cpp,
   docker,
   firebase,

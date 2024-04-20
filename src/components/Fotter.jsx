@@ -35,8 +35,8 @@ const Footer = () => {
           className="group flex justify-center items-center rounded-full fixed bottom-12 right-3"
           onClick={scrollToTop}
         >
-          <div className="shadow-md flex items-center bg-yellow-800 p-3 rounded-full cursor-pointer duration-300">
-            <i className="fas fa-arrow-up" />
+          <div className="shadow-md flex items-center bg-tertiary rounded-full cursor-pointer duration-300">
+            <img src="/uparrow.webp" width={50} alt="up arrow" />
           </div>
         </div>
       )}

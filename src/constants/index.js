@@ -61,6 +61,7 @@ import {
   mongoose,
   matplotlib,
   seaborn,
+  quizapp,
 } from "../assets";
 
 export const navLinks = [
@@ -88,7 +89,7 @@ const services = [
     icon: web,
   },
   {
-    title: "Nextjs Developer",
+    title: "NextjsDeveloper",
     icon: mobile,
   },
   {
@@ -151,7 +152,7 @@ const projects = [
   {
     name: "GEC PORTAL",
     description:
-      "Platform for efficient management of GECs,VACs and events.,simplifying the application process for 5000+ students.",
+      "Platform for efficient management of GECs,VACs and events,simplifying the application process for 5000+ students also integrated with university website",
     tags: [
       {
         name: "nextjs",
@@ -173,7 +174,7 @@ const projects = [
   {
     name: "webOverflow",
     description:
-      "WebOverflow is a dynamic Q&A platform where you can post, answer, upvote and downvote questions",
+      "WebOverflow is a dynamic Q&A platform where you can post, answer, upvote and downvote questions and can generate answers with ai",
     tags: [
       {
         name: "nextjs",
@@ -195,7 +196,7 @@ const projects = [
   {
     name: "LearnEaseU",
     description:
-      "Website to simplify studies of CUH students. Download Sessionals,Study materials, and PYQs of Central University of Haryana.",
+      "It simplify studies of CUH students. Students can download and share sessionals, study materials, and PYQs of Central University of Haryana",
     tags: [
       {
         name: "nextjs",
@@ -217,9 +218,7 @@ const projects = [
   {
     name: "Questify",
     description:
-      "Questify is a dynamic and user-friendly MERN Blogging1 application I developed to create and manage my blogs effectively.",
-    // • Features: Admin Dashboard, User Authentication, SEO Optimization, User Profiles, Liked Articles
-    // • Skill: MERN Stack, Javascript, Authentication, Cookies, JWT, Bcryptjs, react-helmet(SEO), MongoDB, DataBase"
+      "Questify is a dynamic and user-friendly MERN Blogging1 application I developed to create and manage my blogs effectively with features like admin dashboard",
     tags: [
       {
         name: "mern",
@@ -239,16 +238,16 @@ const projects = [
     source_code_link: "https://github.com/Rohit-Yadavv/questify",
   },
   {
-    name: "Ecommerce App",
+    name: "Quiz App",
     description:
-      "Ecommerce Website having clean interface, user-friendly navigation, secure transactions and a seamless online shopping experience.",
+      "Test your knowledge with our quiz app! Answer 10 questions against the clock and check your score at the end. It's fun, fast, and perfect for trivia lovers!",
     tags: [
       {
-        name: "mern",
+        name: "reactjs",
         color: "blue-text-gradient",
       },
       {
-        name: "styledcomponents",
+        name: "css",
         color: "green-text-gradient",
       },
       {
@@ -256,15 +255,14 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: ecoomerce,
+    image: quizapp,
     onlineRepo: live,
-    source_code_link:
-      "https://github.com/rohit-yadavv/ecommerce-production-app/",
+    source_code_link: "https://github.com/rohit-yadavv/quiz-app",
   },
   {
     name: "Fitness App",
     description:
-      "Web-based platform providing a convenient way to search for any type of exercises by its target muscles, equipment etc.",
+      "Web-based platform providing a convenient way to search for any type of exercises by its target muscles, equipment etc. with recommending videos related to exercise",
     tags: [
       {
         name: "react",
@@ -283,50 +281,50 @@ const projects = [
     onlineRepo: live,
     source_code_link: "https://github.com/rohit-yadavv/total-fitness/",
   },
-  {
-    name: "Weather App",
-    description:
-      "Web application that enables users to search for weather on their current location or at any other place around the globe",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "openweatherapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: WeatherApp,
-    onlineRepo: live,
-    source_code_link: "https://github.com/rohit-yadavv/My-weather-App/",
-  },
-  {
-    name: "News App",
-    description:
-      "Application that provides a efficient way to search for any type of News with categories Entertainment, Sports, Technology etc.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "newsapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: ApniNews,
-    onlineRepo: github,
-    source_code_link: "https://github.com/Rohit-Yadavv/ApniNews",
-  },
+  // {
+  //   name: "Weather App",
+  //   description:
+  //     "Web application that enables users to search for weather on their current location or at any other place around the globe",
+  //   tags: [
+  //     {
+  //       name: "react",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "openweatherapi",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "scss",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: WeatherApp,
+  //   onlineRepo: live,
+  //   source_code_link: "https://github.com/rohit-yadavv/My-weather-App/",
+  // },
+  // {
+  //   name: "News App",
+  //   description:
+  //     "Application that provides a efficient way to search for any type of News with categories Entertainment, Sports, Technology etc.",
+  //   tags: [
+  //     {
+  //       name: "react",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "newsapi",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "tailwind",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: ApniNews,
+  //   onlineRepo: github,
+  //   source_code_link: "https://github.com/Rohit-Yadavv/ApniNews",
+  // },
 
   // {
   //   name: "To DO List",
@@ -346,24 +344,24 @@ const projects = [
   //   onlineRepo: live,
   //   source_code_link: "https://tonotes.netlify.app",
   // },
-  {
-    name: "Tic Tac Toe",
-    description:
-      "Offers a fun and interactive way to play the classic game of tic-tac-toe with intuitive and user-friendly interface ",
-    tags: [
-      {
-        name: "javascript",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: TicTacToe,
-    onlineRepo: live,
-    source_code_link: "https://github.com/rohit-yadavv/tic-tac-toe",
-  },
+  // {
+  //   name: "Tic Tac Toe",
+  //   description:
+  //     "Offers a fun and interactive way to play the classic game of tic-tac-toe with intuitive and user-friendly interface ",
+  //   tags: [
+  //     {
+  //       name: "javascript",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "css",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: TicTacToe,
+  //   onlineRepo: live,
+  //   source_code_link: "https://github.com/rohit-yadavv/tic-tac-toe",
+  // },
   // {
   //   name: "Music Player",
   //   description:
