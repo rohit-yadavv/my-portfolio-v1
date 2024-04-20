@@ -17,14 +17,24 @@
   padding: 5px;
   font-family: "Oswald", sans-serif;
   transition: all 0.8s;
-  background-color: #4295c2;
   color: white;
 }
 
 .GitHub {
-  background-color: black !important;
+  background-color: black;
 }
-
+.Email {
+  background-color: #6074d4;
+}
+.Resume {
+  background-color: #6074d4;
+}
+.Linkedin {
+  background-color: #4295c2;
+}
+.Blog {
+  background-color: #4295c2;
+}
 .sticky-icon a:hover {
   color: #fff;
   transform: translate(0px, 0px);
