@@ -59,7 +59,7 @@ import questify from "./questify.png";
 import ecoomerce from "./ecoomerce.png";
 import quizapp from "./quizapp.png";
 
-import GitHub from "./links/github.png";
+import githubSocialLink from "./links/github.png";
 import blog from "./links/blog.png";
 import LinkedIn from "./links/linkedin.png";
 import resume from "./links/resume.png";
@@ -96,6 +96,7 @@ export {
   quizapp,
   web,
   github,
+  githubSocialLink,
   menu,
   close,
   css,
@@ -129,7 +130,6 @@ export {
   ToDoList,
   TicTacToe,
   ApniNews,
-  GitHub,
   LinkedIn,
   email,
   cpp,
