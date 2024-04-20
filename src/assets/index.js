@@ -69,6 +69,7 @@ import gdsc from "./gdsc-logo.png";
 import web3scope from "./web3scope.jpg";
 import hacktoberfest from "./hacktoberfest.png";
 import learneaseu from "./learneaseu.png";
+import atsTracking from "./atsTracking.png";
 import weboverflow from "./weboverflow.png";
 import gecPortal from "./gecPortal.png";
 
@@ -76,6 +77,7 @@ export {
   questify,
   ecoomerce,
   resume,
+  atsTracking,
   hacktoberfest,
   learneaseu,
   weboverflow,

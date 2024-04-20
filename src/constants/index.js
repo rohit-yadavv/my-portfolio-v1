@@ -62,6 +62,7 @@ import {
   matplotlib,
   seaborn,
   quizapp,
+  atsTracking,
 } from "../assets";
 
 export const navLinks = [
@@ -238,26 +239,26 @@ const projects = [
     source_code_link: "https://github.com/Rohit-Yadavv/questify",
   },
   {
-    name: "Quiz App",
+    name: "ATS Tracking APP",
     description:
-      "Test your knowledge with our quiz app! Answer 10 questions against the clock and check your score at the end. It's fun, fast, and perfect for trivia lovers!",
+      "It effortlessly analyzes resumes, delivering a quick percentage match and highlighting missing keywords. Simplify your recruitment journey.",
     tags: [
       {
-        name: "reactjs",
+        name: "python",
         color: "blue-text-gradient",
       },
       {
-        name: "css",
+        name: "gemini",
         color: "green-text-gradient",
       },
       {
-        name: "restapi",
+        name: "langchain",
         color: "pink-text-gradient",
       },
     ],
-    image: quizapp,
+    image: atsTracking,
     onlineRepo: live,
-    source_code_link: "https://github.com/rohit-yadavv/quiz-app",
+    source_code_link: "https://github.com/rohit-yadavv/ats-tracking-system",
   },
   {
     name: "Fitness App",
