@@ -334,7 +334,7 @@ const ParticleConfig = {
         height: 1080,
       },
       limit: 0,
-      value: 0, //! increase to hace links
+      value: 0, //! increase to have links
     },
     opacity: {
       random: {

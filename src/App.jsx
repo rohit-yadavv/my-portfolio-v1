@@ -1,17 +1,15 @@
 import { BrowserRouter } from "react-router-dom";
-import {
-  About,
-  Contact,
-  Fotter,
-  Feedbacks,
-  Hero,
-  Navbar,
-  Tech,
-  Projects,
-} from "./components";
 import Experience from "./components/Experience";
 import SocialLinks from "./components/SocialLinks";
 import AnimatedCursor from "react-animated-cursor";
+import Navbar from "./components/Navbar";
+import About from "./components/About";
+import Footer from "./components/Footer";
+import Hero from "./components/Hero";
+import Tech from "./components/Tech";
+import Projects from "./components/Projects";
+import Feedbacks from "./components/Feedbacks";
+import Contact from "./components/Contact";
 
 const App = () => {
   return (
@@ -55,10 +53,8 @@ const App = () => {
         <Experience />
         <Projects />
         <Feedbacks />
-        {/* <div className="relative z-0"> */}
         <Contact />
-        <Fotter />
-        {/* </div> */}
+        <Footer />
       </div>
     </BrowserRouter>
   );

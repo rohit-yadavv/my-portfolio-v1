@@ -13,7 +13,7 @@ const Footer = () => {
 
   // Function to toggle visibility of the button based on scroll position
   const toggleVisibility = () => {
-    if (window.pageYOffset > 1000) {
+    if (window.pageYOffset > 800) {
       setIsVisible(true);
     } else {
       setIsVisible(false);
