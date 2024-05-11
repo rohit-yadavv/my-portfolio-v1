@@ -151,8 +151,8 @@ const testimonials = [
     testimonial:
       "Rohit has expertise in Next.js that allowed him to create beautiful, responsive, and robust interfaces that exceeds my expectations.",
     name: "Ashutosh",
-    designation: "HR",
-    company: "web3scope",
+    designation: "Human resources",
+    company: "",
   },
 ];
 
