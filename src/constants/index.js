@@ -63,6 +63,9 @@ import {
   seaborn,
   quizapp,
   atsTracking,
+  gssoc,
+  internshala,
+  gfg,
 } from "../assets";
 
 export const navLinks = [
@@ -109,9 +112,9 @@ const technologies = [
   { name: "CSS 3", icon: css },
   { name: "Bootstrap", icon: bootstrap },
   { name: "Tailwind", icon: tailwind },
+  { name: "Sass", icon: sass },
   { name: "Material UI", icon: mui },
   { name: "Styled Component", icon: styledComponent },
-  { name: "Sass", icon: sass },
   { name: "UI", icon: shadecn },
   { name: "Next.js", icon: nextjs },
   { name: "React JS", icon: reactjs },
@@ -120,10 +123,10 @@ const technologies = [
   { name: "Fast API", icon: fastapi },
   { name: "Flask", icon: flask },
   { name: "MongoDB", icon: mongodb },
+  { name: "SQL", icon: sql },
   // { name: "Mongoose", icon: mongoose },
   { name: "PostgreSQL", icon: postgresql },
   { name: "Prisma", icon: prisma },
-  { name: "SQL", icon: sql },
   { name: "Docker", icon: docker },
   { name: "Firebase", icon: firebase },
   { name: "Figma", icon: figma },
@@ -383,43 +386,87 @@ const projects = [
   // },
 ];
 
-const experiences = [
+const workExperience = [
   {
-    title: "FullStack Development Intern at web3scope",
+    title: "GirlScript Summer of Code Contributor",
+    company_name: "GirlScript Foundation",
+    icon: gssoc,
+    iconBg: "#383E56",
+    date: "May 2024 - Present",
+    points: [
+      "Contributed code to open-source projects, focusing on web development and data science.",
+      "Participated in project meetings, providing insights to enhance project outcomes.",
+      "Received recognition for consistent and impactful contributions.",
+    ],
+  },
+  {
+    title: "FullStack Development Intern at Web3Scope",
     company_name: "Web3Scope",
     icon: web3scope,
     iconBg: "#383E56",
     date: "Nov 2023 - Jan 2024",
     points: [
-      "Contributed in building the MVP of Web3Scope and worked on various MVP applications as part of an incubator project.",
-      "Acquired and strengthened skills in full-stack development, gaining hands-on experience in building web applications.",
-      "Received positive feedback for contributions, highlighting a proactive and impactful approach.",
+      "Developed frontend and backend components using React.js and Node.js for Web3Scope's MVP.",
+      "Collaborated with team members to resolve technical issues and enhance product functionality.",
+      "Implemented user feedback to improve the product's user experience.",
     ],
   },
-  {
-    title: "Open Source Lead at GDSC CUH",
-    company_name: "Google Developer Students Club",
-    icon: gdsc,
-    iconBg: "#383E56",
-    date: "August 2023 - Present",
-    points: [
-      "Lead and coordinate open-source initiatives within the GDSC community.",
-      "Manage and mentor a team of developers and contributors.",
-      "Organized open-source events to encourage participation and contributions from club members.",
-    ],
-  },
+
   {
     title: "HacktoberFest 2023",
     company_name: "Hacktoberfest",
     icon: hacktoberfest,
     iconBg: "#383E56",
-    date: "October 2023",
+    date: "Oct 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Among first 50,000 contributors during Hacktoberfest, tree planted in honor by digitalOcean.",
-      "Successfully Merged 4 Pull Requests (PRs) into open-source repositories during the event.",
+      "Contributed to open-source projects across various domains during Hacktoberfest 2023.",
+      "Reviewed and tested pull requests to maintain code quality and project integrity.",
+      "Engaged in community discussions, sharing knowledge and learning from others.",
+    ],
+  },
+];
+const leadershiproles = [
+  {
+    title: "Open Source Lead at GDSC CUH",
+    company_name: "Google Developer Students Club",
+    icon: gdsc,
+    iconBg: "#383E56",
+    date: "Aug 2023 - Present",
+    points: [
+      "Organized workshops and mentored developers to promote open-source culture.",
+      "Managed the club's GitHub repository for smooth project collaboration.",
+    ],
+  },
+
+  {
+    title: "Geeks for Geeks Campus Ambassador at CUH",
+    company_name: "GeeksforGeeks",
+    date: "Apr 2024 - Present",
+    icon: gfg,
+    iconBg: "#383E56",
+    points: [
+      "Promoted GeeksforGeeks resources to enhance students' technical skills.",
+      "Organized coding competitions and facilitated sessions on programming concepts.",
+    ],
+  },
+  {
+    title: "Internshala Student Partner",
+    company_name: "Internshala",
+    icon: internshala,
+    iconBg: "#383E56",
+    date: "Feb 2024 - Apr 2024",
+    points: [
+      "Organized events and mentored peers to promote Internshala's programs.",
+      "Collaborated with Internshala to facilitate workshops for student development.",
     ],
   },
 ];
 
-export { experiences, services, technologies, testimonials, projects };
+export {
+  workExperience,
+  leadershiproles,
+  services,
+  technologies,
+  testimonials,
+  projects,
+};

@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 import "react-vertical-timeline-component/style.min.css";
 
 import { styles } from "../styles";
-import { experiences } from "../constants";
+import { leadershiproles, workExperience } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { textVariant } from "../utils/motion";
 
@@ -23,7 +23,7 @@ const ExperienceCard = ({ experience }) => {
       date={experience.date}
       iconStyle={{ background: experience.iconBg }}
       icon={
-        <div className="flex justify-center items-center w-full h-full">
+        <div className="flex justify-center items-center w-full h-full ">
           <img
             src={experience.icon}
             alt={experience.company_name}
@@ -58,7 +58,7 @@ const ExperienceCard = ({ experience }) => {
 
 const Experience = () => {
   return (
-    <>
+    <div className="">
       <motion.div variants={textVariant()}>
         <p className={`${styles.sectionSubText} text-center`}>
           What I have done so far
@@ -70,7 +70,7 @@ const Experience = () => {
 
       <div className="mt-20 flex flex-col">
         <VerticalTimeline>
-          {experiences.map((experience, index) => (
+          {workExperience.map((experience, index) => (
             <ExperienceCard
               key={`experience-${index}`}
               experience={experience}
@@ -78,7 +78,24 @@ const Experience = () => {
           ))}
         </VerticalTimeline>
       </div>
-    </>
+
+      <div className="mt-20 flex flex-col">
+        <motion.div variants={textVariant()}>
+          <h2 className={`${styles.sectionHeadText} text-center`}>
+            LeaderShip Roles.
+          </h2>
+        </motion.div>
+
+        <VerticalTimeline>
+          {leadershiproles.map((experience, index) => (
+            <ExperienceCard
+              key={`experience-${index}`}
+              experience={experience}
+            />
+          ))}
+        </VerticalTimeline>
+      </div>
+    </div>
   );
 };
 

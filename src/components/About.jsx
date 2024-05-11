@@ -54,12 +54,21 @@ const About = () => {
       </motion.div>
 
       <div className=" text-secondary text-[17px] max-w-3xl leading-[30px]">
-        🚀 Passionate MERN & Nextjs developer. <br />
-        💡 Student at Central University of Haryana. <br />
-        🌟 Open-source enthusiast and GDSC lead.
-        <br />
-        📚 Constantly learning and innovating in the ever-evolving tech world.
-        <br />
+        <ol>
+          <li>
+            Hi, I'm Rohit Yadav, a detail-oriented{" "}
+            <strong> Software Engineer </strong> with a strong background in
+            Full-stack web development.
+          </li>
+          <li>
+            I'm passionate about creating efficient, scalable, and maintainable
+            software solutions.
+          </li>
+          <li>
+            I have strong interest in Artificial Intelligence,Machine Learning
+            and LLMs.
+          </li>
+        </ol>
       </div>
       <div className="mt-20 flex flex-wrap gap-10 justify-center">
         {services.map((service, index) => (

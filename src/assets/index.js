@@ -8,6 +8,7 @@ import live from "./live.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
+//? skills
 import css from "./tech/css.png";
 import cpp from "./tech/cpp.png";
 import c from "./tech/c.png";
@@ -49,6 +50,7 @@ import linux from "./tech/linux.png";
 import githubTech from "./tech/github.png";
 import mongoose from "./tech/mongoose.png";
 
+//? projects
 import WeatherApp from "./WeatherApp.png";
 import totalFitness from "./totalFitness.png";
 import ApniNews from "./ApniNews.png";
@@ -58,23 +60,31 @@ import TicTacToe from "./TicTacToe.png";
 import questify from "./questify.png";
 import ecoomerce from "./ecoomerce.png";
 import quizapp from "./quizapp.png";
+import learneaseu from "./learneaseu.png";
+import atsTracking from "./atsTracking.png";
+import weboverflow from "./weboverflow.png";
+import gecPortal from "./gecPortal.png";
 
+//? social links
 import githubSocialLink from "./links/github.png";
 import blog from "./links/blog.png";
 import LinkedIn from "./links/linkedin.png";
 import resume from "./links/resume.png";
 import email from "./links/email.png";
 
-import gdsc from "./gdsc-logo.png";
-import web3scope from "./web3scope.jpg";
-import hacktoberfest from "./hacktoberfest.png";
-import learneaseu from "./learneaseu.png";
-import atsTracking from "./atsTracking.png";
-import weboverflow from "./weboverflow.png";
-import gecPortal from "./gecPortal.png";
+//? experience
+import gdsc from "./experience/gdsc-logo.png";
+import gfg from "./experience//gfg.png";
+import gssoc from "./experience//gssoc.jpg";
+import internshala from "./experience//internshala.png";
+import web3scope from "./experience//web3scope.jpg";
+import hacktoberfest from "./experience/hacktoberfest.png";
 
 export {
   questify,
+  gfg,
+  gssoc,
+  internshala,
   ecoomerce,
   resume,
   atsTracking,
