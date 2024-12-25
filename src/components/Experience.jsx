@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 import "react-vertical-timeline-component/style.min.css";
 
 import { styles } from "../styles";
-import { leadershiproles, workExperience } from "../constants";
+import { workExperience } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { textVariant } from "../utils/motion";
 
@@ -85,15 +85,6 @@ const Experience = () => {
             LeaderShip Roles.
           </h2>
         </motion.div>
-
-        <VerticalTimeline>
-          {leadershiproles.map((experience, index) => (
-            <ExperienceCard
-              key={`experience-${index}`}
-              experience={experience}
-            />
-          ))}
-        </VerticalTimeline>
       </div>
     </div>
   );

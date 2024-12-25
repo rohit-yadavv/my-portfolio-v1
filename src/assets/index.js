@@ -78,9 +78,13 @@ import gfg from "./experience//gfg.png";
 import gssoc from "./experience//gssoc.jpg";
 import internshala from "./experience//internshala.png";
 import web3scope from "./experience//web3scope.jpg";
+import tayyari from "./experience//tayyari.jpg";
+import wellfounded from "./experience//wellfounded.jpg";
 import hacktoberfest from "./experience/hacktoberfest.png";
 
 export {
+  tayyari,
+  wellfounded,
   questify,
   gfg,
   gssoc,

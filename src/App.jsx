@@ -10,6 +10,7 @@ import Tech from "./components/Tech";
 import Projects from "./components/Projects";
 import Feedbacks from "./components/Feedbacks";
 import Contact from "./components/Contact";
+import OtherExperience from "./components/OtherExperience";
 
 const App = () => {
   return (
@@ -51,6 +52,7 @@ const App = () => {
         <About />
         <Tech />
         <Experience />
+        <OtherExperience />
         <Projects />
         <Feedbacks />
         <Contact />

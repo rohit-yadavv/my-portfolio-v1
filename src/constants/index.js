@@ -66,6 +66,8 @@ import {
   gssoc,
   internshala,
   gfg,
+  tayyari,
+  wellfounded,
 } from "../assets";
 
 export const navLinks = [
@@ -392,11 +394,22 @@ const projects = [
 
 const workExperience = [
   {
-    title: "GirlScript Summer of Code Contributor",
-    company_name: "GirlScript Foundation",
-    icon: gssoc,
+    title: "Software Engineer Intern",
+    company_name: "Tayyari",
+    icon: tayyari,
     iconBg: "#383E56",
-    date: "May 2024 - Present",
+    date: "Aug 2024 - Present",
+    points: [
+      "Contributed code to open-source projects, focusing on web development and data science.",
+      "Participated in project meetings, providing insights to enhance project outcomes.",
+      "Received recognition for consistent and impactful contributions.",
+    ],
+  },  {
+    title: "MERN Stack Developer Intern",
+    company_name: "WellFounded It Solutions",
+    icon: wellfounded,
+    iconBg: "#383E56",
+    date: "May 2024 - Aug 2024",
     points: [
       "Contributed code to open-source projects, focusing on web development and data science.",
       "Participated in project meetings, providing insights to enhance project outcomes.",
@@ -414,55 +427,35 @@ const workExperience = [
       "Collaborated with team members to resolve technical issues and enhance product functionality.",
       "Implemented user feedback to improve the product's user experience.",
     ],
-  },
-
-  {
-    title: "HacktoberFest 2023",
-    company_name: "Hacktoberfest",
-    icon: hacktoberfest,
-    iconBg: "#383E56",
-    date: "Oct 2023",
-    points: [
-      "Contributed to open-source projects across various domains during Hacktoberfest 2023.",
-      "Reviewed and tested pull requests to maintain code quality and project integrity.",
-      "Engaged in community discussions, sharing knowledge and learning from others.",
-    ],
-  },
+  }, 
 ];
 const leadershiproles = [
   {
-    title: "Open Source Lead at GDSC CUH",
-    company_name: "Google Developer Students Club",
-    icon: gdsc,
-    iconBg: "#383E56",
-    date: "Aug 2023 - Present",
-    points: [
-      "Organized workshops and mentored developers to promote open-source culture.",
-      "Managed the club's GitHub repository for smooth project collaboration.",
-    ],
+    id:1,
+    title: "Chapter Co-Lead at GDG CUH",
+    company: "Google Developer Group",
+    duration: "Aug 2023 - Present",
   },
-
+  
   {
-    title: "Geeks for Geeks Campus Ambassador at CUH",
-    company_name: "GeeksforGeeks",
-    date: "Apr 2024 - Present",
-    icon: gfg,
-    iconBg: "#383E56",
-    points: [
-      "Promoted GeeksforGeeks resources to enhance students' technical skills.",
-      "Organized coding competitions and facilitated sessions on programming concepts.",
-    ],
+    id:2,
+    title: "GFG Campus Mantri at CUH",
+    company: "GeeksforGeeks",
+    duration: "Apr 2024 - Present",
+  },
+];
+const ohterExperiences = [
+  {
+    id: 1,
+    title: "Top Contributor",
+    company: "GirlScript Summer of Code",
+    duration: "2024",
   },
   {
-    title: "Internshala Student Partner",
-    company_name: "Internshala",
-    icon: internshala,
-    iconBg: "#383E56",
-    date: "Feb 2024 - Apr 2024",
-    points: [
-      "Organized events and mentored peers to promote Internshala's programs.",
-      "Collaborated with Internshala to facilitate workshops for student development.",
-    ],
+    id: 2,
+    title: "Open Source Contributor",
+    company: "Hacktoberfest",
+    duration: "2023",
   },
 ];
 
@@ -473,4 +466,5 @@ export {
   technologies,
   testimonials,
   projects,
+  ohterExperiences,
 };
