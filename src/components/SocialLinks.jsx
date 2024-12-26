@@ -4,14 +4,6 @@ import "./socialLinks.css";
 const StickyIcon = () => {
   return (
     <div className="sticky-icon">
-      {/* <a
-        target="_blank"
-        href="https://tinyurl.com/rhtydv"
-        className="Linkedin"
-        rel="noreferrer"
-      >
-        <i className="fas fa-download"></i> Resume
-      </a> */}
       <a
         target="_blank"
         href="mailto:rohitydv056@gmail.com"
@@ -31,7 +23,7 @@ const StickyIcon = () => {
       </a>
       <a
         target="_blank"
-        href="https://questify.site"
+        href="https://questfy.vercel.app"
         className="Blogs"
         rel="noreferrer"
       >

@@ -421,7 +421,7 @@ const workExperience = [
     company_name: "Web3Scope",
     icon: web3scope,
     iconBg: "#383E56",
-    date: "Nov 2023 - Jan 2024",
+    date: "Nov 2023 - Dec 2024",
     points: [
       "Developed frontend and backend components using React.js and Node.js for Web3Scope's MVP.",
       "Collaborated with team members to resolve technical issues and enhance product functionality.",
@@ -449,13 +449,13 @@ const ohterExperiences = [
     id: 1,
     title: "Top Contributor",
     company: "GirlScript Summer of Code",
-    duration: "2024",
+    duration: "May 2024 - Jul 2024",
   },
   {
     id: 2,
     title: "Open Source Contributor",
     company: "Hacktoberfest",
-    duration: "2023",
+    duration: "Oct 2023",
   },
 ];
 
