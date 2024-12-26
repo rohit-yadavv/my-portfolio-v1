@@ -78,14 +78,6 @@ const Experience = () => {
           ))}
         </VerticalTimeline>
       </div>
-
-      <div className="mt-20 flex flex-col">
-        <motion.div variants={textVariant()}>
-          <h2 className={`${styles.sectionHeadText} text-center`}>
-            LeaderShip Roles.
-          </h2>
-        </motion.div>
-      </div>
     </div>
   );
 };
